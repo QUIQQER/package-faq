@@ -1,0 +1,55 @@
+
+<div>
+
+    {if $Template->getAttribute('content-header')}
+    <section class="content-header grid-100 mobile-grid-100">
+        <header>
+            <h1>{$Site->getAttribute('title')}</h1>
+        </header>
+
+        {if $Site->getAttribute('short')}
+        <div class="content-short">
+            {$Site->getAttribute('short')|nl2br}
+        </div>
+        {/if}
+    </section>
+    {/if}
+
+    {if $Template->getAttribute('content-body') && $Site->getAttribute('content')}
+    <section class="content-body grid-100 mobile-grid-100">
+        {$Site->getAttribute('content')}
+    </section>
+    {/if}
+
+    <div class="content-template grid-100 mobile-grid-100">
+
+        {foreach from=$categories item=Category}
+        <section class="content-template-faq-list-category">
+            <h2>
+                <a href="{url site=$Category}">
+                    {$Category->getAttribute('title')}
+                </a>
+            </h2>
+
+            <div class="content-short">
+                {$Category->getAttribute('short')}
+            </div>
+
+            {assign var=faqList value=$Category->getChildren()}
+            {if count($faqList)}
+            <ul itemscope itemtype="http://schema.org/ItemList">
+                {foreach $faqList as $Faq}
+                <li>
+                    <a href="{url site=$Category}#faq{$Faq->getId()}">
+                        {$Faq->getAttribute('title')}
+                    </a>
+                </li>
+                {/foreach}
+            </ul>
+            {/if}
+
+        </section>
+        {/foreach}
+
+    </div>
+</div>
