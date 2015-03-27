@@ -2,7 +2,7 @@
     "name" : "quiqqer/faq",
     "type" : "quiqqer-module",
     "description" : "QUIQQER FAQ Module",
-    "version" : "dev-master",
+    "version" : "dev-dev",
 
     "authors" : [{
         "name": "Henning Leutz",
