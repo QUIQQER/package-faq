@@ -1,5 +1,5 @@
 
-define('packages/quiqqer/faq/bin/Category', [
+define('package/quiqqer/faq/bin/Category', [
 
     'qui/QUI',
     'qui/controls/Control'
@@ -11,7 +11,7 @@ define('packages/quiqqer/faq/bin/Category', [
     return new Class({
 
         Extends : QUIControl,
-        Type    : 'packages/quiqqer/faq/bin/Category',
+        Type    : 'package/quiqqer/faq/bin/Category',
 
         Binds : [
             '$onImport',
