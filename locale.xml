@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <locales>
+    <groups name="quiqqer/faq" datatype="php,js ">
+        <locale name="package.title">
+            <de><![CDATA[QUIQQER - FAQ (Häufig gestellte Fragen)]]></de>
+            <en><![CDATA[QUIQQER: FAQ]]></en>
+        </locale>
+        <locale name="package.description">
+            <de><![CDATA[Legen Sie eine FAQ-Liste an mit den am häufigsten gestellten Fragen, um Ihren Nutzern die Aufklärung von Problemen zu erleichtern. ]]></de>
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="quiqqer/faq:types/list.title">
+            <de><![CDATA[FAQ-Liste]]></de>
+            <en><![CDATA[]]></en>
+        </locale>
+    </groups>
     <groups name="quiqqer/faq" datatype="php,js">
-
+        <locale name="admin.types.faq.entry">
+            <de><![CDATA[FAQ-Eintrag]]></de>
+            <en><![CDATA[FAQ: Entry]]></en>
+        </locale>
         <locale name="admin.types.faq.list">
-            <de><![CDATA[FAQ: Liste]]></de>
+            <de><![CDATA[FAQ-Liste]]></de>
             <en><![CDATA[FAQ: List]]></en>
         </locale>
         <locale name="admin.types.faq.category">
-            <de><![CDATA[FAQ: Kategorie]]></de>
+            <de><![CDATA[FAQ-Kategorie]]></de>
             <en><![CDATA[FAQ: Category]]></en>
         </locale>
-        <locale name="admin.types.faq.entry">
-            <de><![CDATA[FAQ: Eintrag]]></de>
-            <en><![CDATA[FAQ: Entry]]></en>
+    </groups>
+    <groups name="quiqqer/faq" datatype="php">
+        <locale name="link.to.top">
+            <de><![CDATA[Nach oben]]></de>
+            <en><![CDATA[]]></en>
         </locale>
-
+    </groups>
+    <groups name="quiqqer/faq" datatype="php,js ">
+        <locale name="quiqqer/faq:types/entry.title">
+            <de><![CDATA[FAQ-Eintrag ]]></de>
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="quiqqer/faq:types/category.title">
+            <de><![CDATA[FAQ-Kategorie ]]></de>
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="quiqqer/faq:types/list.description">
+            <de><![CDATA[Um die FAQ anzulegen, erstellen Sie zunächste eine neue Seite mit dem Seitentyp FAQ-Liste. Alle darunter liegenden Seiten werden aufgelistet.]]></de>
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="quiqqer/faq:types/entry.description">
+            <de><![CDATA[Als letzes listen Sie unter den angelegten Kategorien mittels dem Seitentyp FAQ-Eintrag alle Fragen auf, die am häufigsten gestellt werden/wurden. Als Titel können Sie die Frage einpflegen und die passende Antwort dazu entweder als Kurzbeschreibung oder als Inhalt .]]></de>
+            <en><![CDATA[]]></en>
+        </locale>
+        <locale name="quiqqer/faq:types/category.description">
+            <de><![CDATA[Nachdem Sie eine FAQ-Liste angelegt haben, erstellen Sie am besten alle benötigten Kategorien als Unterseiten der FAQ-Liste. Z.B "Wo finde ich was?", "Fragen zur Bestellung" etc.]]></de>
+            <en><![CDATA[]]></en>
+        </locale>
     </groups>
 </locales>
