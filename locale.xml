@@ -44,11 +44,11 @@
             <en><![CDATA[]]></en>
         </locale>
         <locale name="quiqqer/faq:types/list.description">
-            <de><![CDATA[Um die FAQ anzulegen, erstellen Sie zunächste eine neue Seite mit dem Seitentyp FAQ-Liste. Alle darunter liegenden Seiten werden aufgelistet.]]></de>
+            <de><![CDATA[Um die FAQ anzulegen, erstellen Sie zunächst eine neue Seite mit dem Seitentyp FAQ-Liste. Alle darunter liegenden Seiten werden aufgelistet.]]></de>
             <en><![CDATA[]]></en>
         </locale>
         <locale name="quiqqer/faq:types/entry.description">
-            <de><![CDATA[Als letzes listen Sie unter den angelegten Kategorien mittels dem Seitentyp FAQ-Eintrag alle Fragen auf, die am häufigsten gestellt werden/wurden. Als Titel können Sie die Frage einpflegen und die passende Antwort dazu entweder als Kurzbeschreibung oder als Inhalt .]]></de>
+            <de><![CDATA[Als letztes listen Sie unter den angelegten Kategorien mittels dem Seitentyp FAQ-Eintrag alle Fragen auf, die am häufigsten gestellt werden/wurden. Als Titel können Sie die Frage einpflegen und die passende Antwort dazu entweder als Kurzbeschreibung oder als Inhalt .]]></de>
             <en><![CDATA[]]></en>
         </locale>
         <locale name="quiqqer/faq:types/category.description">
