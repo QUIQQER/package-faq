@@ -2,3 +2,9 @@
     clear: both;
     float: right;
 }
+
+.quiqqer-faq-list article {
+    clear: both;
+    float: right;
+    width: 100%;
+}
