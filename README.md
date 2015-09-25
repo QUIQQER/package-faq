@@ -22,8 +22,8 @@ Der Paketname ist: quiqqer/faq
 Mitwirken
 ----------
 
-- Issue Tracker: http://dev.quiqqer.com:3000/quiqqer/package-faq/issues
-- Source Code: http://dev.quiqqer.com:3000/quiqqer/package-faq/tree/master
+- Issue Tracker: https://dev.quiqqer.com/quiqqer/package-faq/issues
+- Source Code: https://dev.quiqqer.com/quiqqer/package-faq/tree/master
 
 
 Support
