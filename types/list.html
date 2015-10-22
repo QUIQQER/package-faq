@@ -38,10 +38,13 @@
             {assign var=faqList value=$Category->getChildren()}
             {if count($faqList)}
             <ul itemscope itemtype="http://schema.org/ItemList">
+                {assign var=position value=1}
                 {foreach $faqList as $Faq}
-                <li itemscope itemprop="itemListElement">
+                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
                     <a itemprop="url" href="{url site=$Category}#faq{$Faq->getId()}">
                         <span itemprop="name">{$Faq->getAttribute('title')}</span>
+                        <meta itemprop="position" content="{$position}" />
+                        {assign var=position value=$position+1}
                     </a>
                 </li>
                 {/foreach}
