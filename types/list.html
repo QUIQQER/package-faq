@@ -39,9 +39,9 @@
             {if count($faqList)}
             <ul itemscope itemtype="http://schema.org/ItemList">
                 {foreach $faqList as $Faq}
-                <li>
-                    <a href="{url site=$Category}#faq{$Faq->getId()}">
-                        {$Faq->getAttribute('title')}
+                <li itemscope itemprop="itemListElement">
+                    <a itemprop="url" href="{url site=$Category}#faq{$Faq->getId()}">
+                        <span itemprop="name">{$Faq->getAttribute('title')}</span>
                     </a>
                 </li>
                 {/foreach}
