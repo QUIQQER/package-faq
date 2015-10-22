@@ -24,10 +24,12 @@
     <div class="content-template grid-100 mobile-grid-100">
 
         {foreach from=$categories item=Category}
-        <section class="content-template-faq-list-category">
+        <section class="content-template-faq-list-category"
+                 itemscope itemtype="http://schema.org/Restaurant"
+                >
             <h2>
-                <a href="{url site=$Category}">
-                    {$Category->getAttribute('title')}
+                <a itemprop="mainEntityOfPage" href="{url site=$Category}">
+                    <span itemprop="name">{$Category->getAttribute('title')}</span>
                 </a>
             </h2>
 

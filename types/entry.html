@@ -1,20 +1,23 @@
+<div itemscope itemtype="http://schema.org/Question">
 
-{if $Template->getAttribute('content-header')}
-<section class="content-header grid-100 mobile-grid-100">
-    <header>
-        <h1>{$Site->getAttribute('title')}</h1>
-    </header>
+    {if $Template->getAttribute('content-header')}
+    <section class="content-header grid-100 mobile-grid-100">
+        <header>
+            <h1 itemprop="name">{$Site->getAttribute('title')}</h1>
+        </header>
 
-    {if $Site->getAttribute('short')}
-    <div class="content-short">
-        {$Site->getAttribute('short')|nl2br}
-    </div>
+        {if $Site->getAttribute('short')}
+        <div class="content-short" itemprop="text">
+            {$Site->getAttribute('short')|nl2br}
+        </div>
+        {/if}
+    </section>
     {/if}
-</section>
-{/if}
 
-{if $Template->getAttribute('content-body') && $Site->getAttribute('content')}
-<section class="content-body grid-100 mobile-grid-100">
-    {$Site->getAttribute('content')}
-</section>
-{/if}
+    {if $Template->getAttribute('content-body') && $Site->getAttribute('content')}
+    <section class="content-body grid-100 mobile-grid-100"
+        itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+        {$Site->getAttribute('content')}
+    </section>
+    {/if}
+</div>
