@@ -12,7 +12,7 @@ if ($parentType == 'quiqqer/faq:types/list'
 ) {
     QUI::getRewrite()->showErrorHeader(
         303,
-        URL_DIR.$Parent->getUrlRewrited().'#faq'.$Site->getId()
+        $Parent->getUrlRewritten().'#faq'.$Site->getId()
     );
 
     exit;
