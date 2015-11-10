@@ -43,7 +43,11 @@
                 {assign var=position value=1}
                 {foreach $faqList as $Faq}
                 <li itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-                    <a itemprop="url" href="{url site=$Category}#faq{$Faq->getId()}">
+                    {if $Faq->getAttribute('type') == 'quiqqer/faq:types/entry'}
+                        <a itemprop="url" href="{url site=$Category}#faq{$Faq->getId()}">
+                    {else}
+                        <a itemprop="url" href="{url site=$Faq}">
+                    {/if}
                         <span itemprop="name">{$Faq->getAttribute('title')}</span>
                         <meta itemprop="position" content="{$position}" />
                         {assign var=position value=$position+1}
