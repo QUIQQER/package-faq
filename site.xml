@@ -9,17 +9,17 @@
             </desc>
         </type>
 
-        <type type="types/entry" icon="icon-question">
-            <locale group="quiqqer/faq" var="admin.types.faq.entry" />
-            <desc>
-                <locale group="quiqqer/faq" var="admin.types.faq.entry.desc" />
-            </desc>
-        </type>
-
         <type type="types/category" icon="icon-question-sign">
             <locale group="quiqqer/faq" var="admin.types.faq.category" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.category.desc" />
+            </desc>
+        </type>
+
+        <type type="types/entry" icon="icon-question">
+            <locale group="quiqqer/faq" var="admin.types.faq.entry" />
+            <desc>
+                <locale group="quiqqer/faq" var="admin.types.faq.entry.desc" />
             </desc>
         </type>
     </types>
