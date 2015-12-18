@@ -17,7 +17,7 @@ class Events
     /**
      * event on child create
      *
-     * @param Integer $newId
+     * @param integer $newId
      * @param \QUI\Projects\Site\Edit $Parent
      */
     static function onChildCreate($newId, $Parent)
