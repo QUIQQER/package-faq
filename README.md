@@ -2,7 +2,8 @@
 FAQ Module
 ========
 
-
+Frequently Asked Questions
+Mit den FAQ Seitentypen ist es einfach FAQ für Ihre Benutzer anzulegen.
 
 Paketname:
 
@@ -11,6 +12,8 @@ Paketname:
 
 Features (Funktionen)
 --------
+
+- FAQ Seitentypen
 
 
 Installation

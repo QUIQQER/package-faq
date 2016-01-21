@@ -4,7 +4,7 @@
  * FAQ Entry
  */
 
-$Parent = $Site->getParent();
+$Parent     = $Site->getParent();
 $parentType = $Parent->getAttribute('type');
 
 if ($parentType == 'quiqqer/faq:types/list'
@@ -12,7 +12,7 @@ if ($parentType == 'quiqqer/faq:types/list'
 ) {
     QUI::getRewrite()->showErrorHeader(
         303,
-        $Parent->getUrlRewritten().'#faq'.$Site->getId()
+        $Parent->getUrlRewritten() . '#faq' . $Site->getId()
     );
 
     exit;

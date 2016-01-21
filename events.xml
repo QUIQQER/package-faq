@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
-    <event on="onSiteCreateChild" fire="\QUI\FAQ\Events::onChildCreate" />
+    <event on="onSiteCreateChild" fire="\QUI\FAQ\EventsHandler::onChildCreate" />
 </events>
