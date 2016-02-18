@@ -2,21 +2,21 @@
 <site>
 
     <types>
-        <type type="types/list" icon="icon-list-alt">
+        <type type="types/list" icon="fa fa-list-alt">
             <locale group="quiqqer/faq" var="admin.types.faq.list" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.list.desc" />
             </desc>
         </type>
 
-        <type type="types/category" icon="icon-question-sign">
+        <type type="types/category" icon="fa fa-question-circle">
             <locale group="quiqqer/faq" var="admin.types.faq.category" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.category.desc" />
             </desc>
         </type>
 
-        <type type="types/entry" icon="icon-question">
+        <type type="types/entry" icon="fa fa-question">
             <locale group="quiqqer/faq" var="admin.types.faq.entry" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.entry.desc" />
