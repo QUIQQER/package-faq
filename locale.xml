@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <locales>
-    <groups name="quiqqer/faq" datatype="php,js ">
+    <groups name="quiqqer/faq" datatype="php,js ">
         <locale name="package.title">
-            <de><![CDATA[QUIQQER - FAQ (Häufig gestellte Fragen)]]></de>
+            <de><![CDATA[QUIQQER - FAQ (Häufig gestellte Fragen)]]></de>
             <en><![CDATA[QUIQQER: FAQ]]></en>
         </locale>
         <locale name="package.description">
-            <de><![CDATA[Legen Sie eine FAQ-Liste an mit den am häufigsten gestellten Fragen, um Ihren Nutzern die Aufklärung von Problemen zu erleichtern. ]]></de>
+            <de><![CDATA[Legen Sie eine FAQ-Liste an mit den am häufigsten gestellten Fragen, um Ihren Nutzern die Aufklärung von Problemen zu erleichtern. ]]></de>
             <en><![CDATA[]]></en>
         </locale>
         <locale name="quiqqer/faq:types/list.title">
             <de><![CDATA[FAQ-Liste]]></de>
-            <en><![CDATA[]]></en>
+            <en><![CDATA[FAQ List]]></en>
         </locale>
     </groups>
     <groups name="quiqqer/faq" datatype="php,js">
         <locale name="admin.types.faq.entry">
             <de><![CDATA[FAQ-Eintrag]]></de>
-            <en><![CDATA[FAQ: Entry]]></en>
+            <en><![CDATA[FAQ Entry]]></en>
         </locale>
         <locale name="admin.types.faq.list">
             <de><![CDATA[FAQ-Liste]]></de>
@@ -31,17 +31,17 @@
     <groups name="quiqqer/faq" datatype="php">
         <locale name="link.to.top">
             <de><![CDATA[Nach oben]]></de>
-            <en><![CDATA[]]></en>
+            <en><![CDATA[To the top]]></en>
         </locale>
     </groups>
     <groups name="quiqqer/faq" datatype="php,js ">
         <locale name="quiqqer/faq:types/entry.title">
-            <de><![CDATA[FAQ-Eintrag ]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[FAQ-Eintrag ]]></de>
+            <en><![CDATA[FAQ Entry ]]></en>
         </locale>
         <locale name="quiqqer/faq:types/category.title">
-            <de><![CDATA[FAQ-Kategorie ]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[FAQ-Kategorie ]]></de>
+            <en><![CDATA[FAQ Category]]></en>
         </locale>
         <locale name="quiqqer/faq:types/list.description">
             <de><![CDATA[Um die FAQ anzulegen, erstellen Sie zunächst eine neue Seite mit dem Seitentyp FAQ-Liste. Alle darunter liegenden Seiten werden aufgelistet.]]></de>
