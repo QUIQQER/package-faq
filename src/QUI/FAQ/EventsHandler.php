@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file contains \QUI\FAQ\Events
+ * This file contains \QUI\FAQ\EventsHandler
  */
 
 namespace QUI\FAQ;
