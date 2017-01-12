@@ -1,7 +1,12 @@
+.content-header .content-short {
+    padding: 0;
+}
+
 .content-template-faq-list-category {
     margin-bottom: 40px;
 }
 
 .content-template-faq-list-category .content-short {
     margin-bottom: 10px;
+    padding: 0;
 }
