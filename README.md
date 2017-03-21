@@ -37,6 +37,7 @@ Wir werden versuchen auf Ihre Wünsche einzugehen bzw. diese an die zuständigen
 des Projektes weiterleiten.
 
 
-Lizenz
+License
 -------
 
+GPL-3.0+
