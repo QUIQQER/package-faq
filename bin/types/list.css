@@ -10,3 +10,133 @@
     margin-bottom: 10px;
     padding: 0;
 }
+
+.content-template-faq-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-template-faq-list .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-template-faq-list-category {
+    width: calc(33.33% - 40px);
+    margin: 20px 20px 40px 20px;
+    transition: 0.3s all ease-in-out;
+}
+
+.content-template-faq-list-category.lastCategoryLevel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #f5f5f5;
+    padding: 20px;
+    margin: 20px;
+}
+
+.content-template-faq-list-category.lastCategoryLevel .button {
+    align-self: center;
+    margin-top: auto;
+}
+
+.content-template-faq-list-category.lastCategoryLevel .content-short {
+    margin-bottom: 20px;
+}
+
+
+
+.content-template-faq-list-category h2 {
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.content-template-faq-list-category h2:after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid;
+    transition: 0.3s all ease-in-out;
+}
+
+.content-template-faq-list-category:hover h2:after {
+    width: 200px;
+}
+
+.content-template-faq-list-category h2 span {
+    color: #444;
+    transition: 0.3s all ease-in-out;
+}
+
+.content-template-faq-list-category h2 span:hover {
+    color: inherit;
+}
+
+.content-template-faq-list-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content-template-faq-list-category ul li {
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 2em;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.content-template-faq-list-category ul li a {
+    color: inherit;
+    display: block;
+}
+
+.content-template-faq-list-category ul li:hover {
+    background: rgba(0,0,0,0.03);
+}
+
+.content-template-faq-list-category ul li span {
+    margin-left: 20px;
+    display: block;
+}
+
+.content-template-faq-list-category ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    background: #f1f1f1;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.content-template-faq-list-category ul li:hover:before {
+    background: #e2e2e2;
+}
+
+
+@media screen and (max-width: 767px) {
+    .content-template-faq-list {
+        display: block;
+    }
+
+    .content-template-faq-list-category {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .content-template-faq-list-category h2 {
+        margin-bottom: 1em;
+    }
+}
+
+.button-arrow:after {
+    content: "\f178";
+    font-family: FontAwesome;
+    margin-left: 20px;
+}
