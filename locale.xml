@@ -33,6 +33,10 @@
             <de><![CDATA[Nach oben]]></de>
             <en><![CDATA[To the top]]></en>
         </locale>
+        <locale name="more">
+            <de><![CDATA[Weiter]]></de>
+            <en><![CDATA[More]]></en>
+        </locale>
     </groups>
     <groups name="quiqqer/faq" datatype="php,js ">
         <locale name="quiqqer/faq:types/entry.title">

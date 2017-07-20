@@ -1,12 +1,68 @@
 
+
+/*
+.quiqqer-faq article {
+    clear: both;
+    float: right;
+    width: 100%;
+}*/
+
+.quiqqer-faq-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quiqqer-faq-list li {
+    padding-left: 0;
+    position: relative;
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+.quiqqer-faq-list li:hover {
+    background: rgba(0,0,0,0.03);
+}
+
+.quiqqer-faq-list li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    background: #f1f1f1;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.quiqqer-faq-list li:hover:before {
+    background: #e2e2e2;
+}
+
+.quiqqer-faq-list li a {
+    display: block;
+    margin-left: 20px;
+    color: inherit;
+}
+
 .quiqqer-faq-list-linkToTop {
     clear: both;
     float: right;
     margin-top: 20px;
 }
 
-.quiqqer-faq article {
-    clear: both;
-    float: right;
-    width: 100%;
+.quiqqer-faq-list-linkToTop .fa {
+    opacity: 0.4;
+    transition: 0.3s all ease-in-out;
+}
+
+.quiqqer-faq-list-linkToTop:hover .fa {
+    opacity: 1;
+}
+
+.quiqqer-faq .content-body {
+    padding: 0;
+}
+
+.quiqqer-faq .content-short {
+    padding: 0 0 1em 0;
 }
