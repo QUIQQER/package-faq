@@ -1,7 +1,7 @@
 {
     "name" : "quiqqer/faq",
     "type" : "quiqqer-module",
-    "description" : "QUIQQER FAQ Module",
+    "description" : "With the FAQ page types it is easy to create FAQ for your users.",
     "version" : "dev-dev",
 
     "authors" : [{
