@@ -8,6 +8,8 @@
             <locale group="quiqqer/faq" var="package.description"/>
         </description>
 
+        <image src="URL_OPT_DIR/quiqqer/package-faq/bin/images/Logo.jpg"/>
+
         <support>
             <email>support@pcsg.de</email>
             <forum>https://community.quiqqer.com</forum>
