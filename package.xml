@@ -11,11 +11,11 @@
         <image src="URL_OPT_DIR/quiqqer/package-faq/bin/images/Logo.jpg"/>
 
         <support>
-            <email>support@pcsg.de</email>
-            <forum>https://community.quiqqer.com</forum>
-            <source>https://dev.quiqqer.com/quiqqer/package-faq</source>
-            <issues>https://dev.quiqqer.com/quiqqer/package-faq/issues</issues>
-            <wiki>https://dev.quiqqer.com/quiqqer/package-faq/wikis/home</wiki>
+            <email><![CDATA[support@pcsg.de]]></email>
+            <forum><![CDATA[https://community.quiqqer.com]]></forum>
+            <source><![CDATA[https://dev.quiqqer.com/quiqqer/package-faq]]></source>
+            <issues><![CDATA[https://dev.quiqqer.com/quiqqer/package-faq/issues]]></issues>
+            <wiki><![CDATA[https://dev.quiqqer.com/quiqqer/package-faq/wikis/home]]></wiki>
         </support>
 
         <copyright>
