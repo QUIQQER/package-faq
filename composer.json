@@ -2,7 +2,7 @@
     "name" : "quiqqer/faq",
     "type" : "quiqqer-module",
     "description" : "With the FAQ page types it is easy to create FAQs for your users.",
-    "version" : "dev-master",
+    "version" : "1.0.0",
     "licence": ["PCSG QL-1.0", "CC BY-NC-SA 4.0"],
     "authors" : [{
         "name": "Henning Leutz",
