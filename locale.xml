@@ -6,8 +6,8 @@
             <en><![CDATA[QUIQQER: FAQ]]></en>
         </locale>
         <locale name="package.description">
-            <de><![CDATA[Legen Sie eine FAQ-Liste an mit den am häufigsten gestellten Fragen, um Ihren Nutzern die Aufklärung von Problemen zu erleichtern. ]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[Mit den FAQ Seitentypen ist es einfach FAQ für Ihre Benutzer anzulegen. ]]></de>
+            <en><![CDATA[With the FAQ page types it is easy to create FAQ for your users.]]></en>
         </locale>
         <locale name="quiqqer/faq:types/list.title">
             <de><![CDATA[FAQ-Liste]]></de>

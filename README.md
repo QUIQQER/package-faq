@@ -1,27 +1,28 @@
+![QUIQQER FAQ](bin/images/Readme.jpg)
 
 FAQ Module (Frequently Asked Questions)
 ========
 
-Mit den FAQ Seitentypen ist es einfach FAQ für Ihre Benutzer anzulegen.
+The FAQ sitetype provides an easy way to create a FAQ for your users.
 
-Paketname:
+Package Name:
 
     quiqqer/faq
 
 
-Features (Funktionen)
+Features
 --------
 
-- FAQ Seitentypen
+- FAQ sitetypes
 
 
 Installation
 ------------
 
-Der Paketname ist: quiqqer/faq
+Package name is: quiqqer/faq
 
 
-Mitwirken
+Contribute
 ----------
 
 - Issue Tracker: https://dev.quiqqer.com/quiqqer/package-faq/issues
@@ -31,10 +32,11 @@ Mitwirken
 Support
 -------
 
-Falls Sie Fehler gefunden, Wünsche oder Verbesserungsvorschläge haben, 
-können Sie uns gern per Mail an support@pcsg.de darüber informieren.  
-Wir werden versuchen auf Ihre Wünsche einzugehen bzw. diese an die zuständigen Entwickler 
-des Projektes weiterleiten.
+If you have found errors, wishes or suggestions for improvement,
+you can contact us by email at [support@pcsg.de](mailto:support@pcsg.de).
+
+We will try to meet your needs or send them to the responsible developers
+of the project.
 
 
 License
