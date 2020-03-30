@@ -89,7 +89,7 @@ define('package/quiqqer/faq/bin/Category', [
                 onComplete: function () {
                     window.location = '#' + href[1];
                 }
-            }).toElement(Article);
+            }).toElement(Article, 'y');
         },
 
         /**
