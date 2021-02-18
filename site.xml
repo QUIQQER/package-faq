@@ -9,11 +9,34 @@
             </desc>
         </type>
 
-        <type type="types/category" icon="fa fa-question-circle">
+        <type type="types/category" icon="fa fa-question-circle">z
             <locale group="quiqqer/faq" var="admin.types.faq.category" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.category.desc" />
             </desc>
+
+            <attributes>
+                <attribute default="0">quiqqer.faq.settings.offset</attribute>
+            </attributes>
+
+            <settings>
+                <category name="faq-category-settings">
+                    <settings>
+                        <title>
+                            <locale group="quiqqer/faq" var="quiqqer.faq.category.settings.title"/>
+                        </title>
+
+                        <input conf="quiqqer.faq.settings.offset" type="number">
+                            <text>
+                                <locale group="quiqqer/faq" var="quiqqer.faq.category.settings.offset"/>
+                            </text>
+                            <description>
+                                <locale group="quiqqer/faq" var="quiqqer.faq.category.settings.offset.desc"/>
+                            </description>
+                        </input>
+                    </settings>
+                </category>
+            </settings>
         </type>
 
         <type type="types/entry" icon="fa fa-question">

@@ -59,5 +59,18 @@
             <de><![CDATA[Nachdem Sie eine FAQ-Liste angelegt haben, erstellen Sie am besten alle benötigten Kategorien als Unterseiten der FAQ-Liste. Z.B "Wo finde ich was?", "Fragen zur Bestellung" etc.]]></de>
             <en><![CDATA[]]></en>
         </locale>
+
+        <locale name="quiqqer.faq.category.settings.title">
+            <de><![CDATA[FAQ-Kategorie Einstellungen]]></de>
+            <en><![CDATA[Offset]]></en>
+        </locale>
+        <locale name="quiqqer.faq.category.settings.offset">
+            <de><![CDATA[Versatz]]></de>
+            <en><![CDATA[Offset]]></en>
+        </locale>
+        <locale name="quiqqer.faq.category.settings.offset.desc">
+            <de><![CDATA[Der Versatz (in Pixel) sagt, um wie viele zusätzliche Pixel soll die Seite gescrollt werden, wenn man ein FAQ Titel anklickt. Das ist vor allem dann hilfreich, wenn das Menü den Inhalt verdecken würde.]]></de>
+            <en><![CDATA[The offset (in pixels) specifies how many additional pixels the page should scroll when you click on a FAQ title. By doing this the menu no longer hides the linked content.]]></en>
+        </locale>
     </groups>
 </locales>
