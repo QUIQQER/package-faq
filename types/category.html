@@ -4,12 +4,28 @@
 </section>
 {/if}
 
+{if $offset}
+<!--
+This CSS is used to scroll the page down a bit when accessed with a # in the url.
+By doing this the menu no longer hides the linked content.
+-->
+<style type="text/css">
+    :target::before {
+        content: '';
+        display: block;
+        height:      80px;
+        margin-top: -80px;
+    }
+</style>
+{/if}
+
 <section itemscope itemtype="http://schema.org/ItemList"
          class="content-template quiqqer-faq clear-fix"
          data-qui="package/quiqqer/faq/bin/Category"
+         data-qui-options-offset="{$offset}"
 >
     {if count($entries)}
-    <ul class="quiqqer-faq-list">
+    <ul class="quiqqer-faq-list" id="faqList" name="faqList">
         {foreach $entries as $Faq}
         <li>
             <a href="{url site=$Site}#faq{$Faq->getId()}">
@@ -38,7 +54,7 @@
             {$Faq->getAttribute('content')}
         </div>
 
-        <a href="#top" class=" quiqqer-faq-list-linkToTop">
+        <a href="#faqList" class="quiqqer-faq-list-linkToTop">
             {locale group="quiqqer/faq" value="link.to.top"} <span class="fa fa-fw fa-level-up"></span>
         </a>
 
