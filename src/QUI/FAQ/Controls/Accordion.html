@@ -1,0 +1,23 @@
+{if $this->getAttribute('showTitle') && $this->getAttribute('frontendTitle')}
+    <header class="control-header">
+        <h1>{$this->getAttribute('frontendTitle')}</h1>
+    </header>
+{/if}
+
+{if $this->getAttribute('content') != ""}
+    <div class="control-body">
+        {$this->getAttribute('content')}
+    </div>
+{/if}
+
+<div class="control-template">
+    {$Accordion->create()}
+
+    {if $showMoreButton}
+        <div class="quiqqer-faqAccordion-moreButton">
+            <a href="{url site=$FAQParentSite}" title="{$FAQParentSite->getAttribute('title')}">
+                {locale group="quiqqer/faq" var="brick.accordion.button.more"}
+            </a>
+        </div>
+    {/if}
+</div>

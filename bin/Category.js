@@ -21,6 +21,10 @@ define('package/quiqqer/faq/bin/Category', [
         Extends: QUIControl,
         Type   : 'package/quiqqer/faq/bin/Category',
 
+        options: {
+            offset: null // if nav sticks to top use nav height to no hide the content by scroll to element
+        },
+
         Binds: [
             '$onImport',
             'scrollToTop',
@@ -29,6 +33,9 @@ define('package/quiqqer/faq/bin/Category', [
 
         initialize: function (options) {
             this.parent(options);
+
+            this.FAQList = null;
+            this.offest  = 0;
 
             this.addEvents({
                 onImport: this.$onImport
@@ -39,8 +46,12 @@ define('package/quiqqer/faq/bin/Category', [
          * event : on import
          */
         $onImport: function () {
-            var links   = this.getElm().getElements('.quiqqer-faq-list li a'),
-                topList = this.getElm().getElements('[href="#top"]');
+            var Elm     = this.getElm(),
+                links   = Elm.getElements('.quiqqer-faq-list li a'),
+                topList = Elm.getElements('.quiqqer-faq-list-linkToTop');
+
+            this.FAQList = Elm.getElement('.quiqqer-faq-list');
+            this.offset  = Elm.get('data-qui-options-offset');
 
             for (var i = 0, len = links.length; i < len; i++) {
                 links[i].addEvent('click', this.$scrollToClick);
@@ -53,10 +64,14 @@ define('package/quiqqer/faq/bin/Category', [
                 return;
             }
 
-            var Article = this.getElm().getElement(window.location.hash);
+            var Article = Elm.getElement(window.location.hash);
 
             if (Article) {
-                new Fx.Scroll(window).toElement(Article);
+                new Fx.Scroll(window, {
+                    offset: {
+                        y: -this.offset
+                    }
+                }).toElement(Article);
             }
         },
 
@@ -86,10 +101,13 @@ define('package/quiqqer/faq/bin/Category', [
             }
 
             new Fx.Scroll(window, {
+                offset    : {
+                    y: -this.offset
+                },
                 onComplete: function () {
                     window.location = '#' + href[1];
                 }
-            }).toElement(Article);
+            }).toElement(Article, 'y');
         },
 
         /**
@@ -98,15 +116,19 @@ define('package/quiqqer/faq/bin/Category', [
          * @param {DOMEvent} [event] - (optional) click dom event
          */
         scrollToTop: function (event) {
+            var self = this;
             if (typeOf(event) === 'domevent') {
                 event.stop();
             }
 
             new Fx.Scroll(window, {
+                offset    : {
+                    y: -this.offset
+                },
                 onComplete: function () {
-                    window.location = '#';
+                    window.location = '#' + self.FAQList.getAttribute('name');
                 }
-            }).toTop();
+            }).toElement(this.FAQList);
         }
     });
 });
