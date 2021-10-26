@@ -39,7 +39,7 @@
             </settings>
         </type>
 
-        <type type="types/entry" icon="fa fa-user-o">
+        <type type="types/entry" icon="fa fa-question">
             <locale group="quiqqer/faq" var="admin.types.faq.entry" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.entry.desc" />
