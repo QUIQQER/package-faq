@@ -9,7 +9,7 @@
             </desc>
         </type>
 
-        <type type="types/category" icon="fa fa-question-circle">z
+        <type type="types/category" icon="fa fa-question-circle">
             <locale group="quiqqer/faq" var="admin.types.faq.category" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.category.desc" />
@@ -39,7 +39,7 @@
             </settings>
         </type>
 
-        <type type="types/entry" icon="fa fa-question">
+        <type type="types/entry" icon="fa fa-user-o">
             <locale group="quiqqer/faq" var="admin.types.faq.entry" />
             <desc>
                 <locale group="quiqqer/faq" var="admin.types.faq.entry.desc" />

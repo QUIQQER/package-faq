@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiqqer>
+    <bricks>
+        <!-- FAQ Accordion -->
+        <brick control="\QUI\FAQ\Controls\Accordion">
+            <title>
+                <locale group="quiqqer/faq" var="brick.accordion.title"/>
+            </title>
+            <description>
+                <locale group="quiqqer/faq" var="brick.accordion.description"/>
+            </description>
+
+            <settings>
+                <!-- select site -->
+                <setting name="parentSite" class="project-site">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.site"/>
+                    <description>
+                        <locale group="quiqqer/faq" var="brick.accordion.settings.site.desc"/>
+                    </description>
+                </setting>
+
+                <!-- order -->
+                <setting name="order" type="select">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.order"/>
+
+                    <!-- manual -->
+                    <option value="order_field">
+                        <locale group="quiqqer/faq" var="brick.control.order.order_field"/>
+                    </option>
+                    <option value="name ASC">
+                        <locale group="quiqqer/quiqqer" var="name_asc"/>
+                    </option>
+                    <option value="name DESC">
+                        <locale group="quiqqer/quiqqer" var="name_desc"/>
+                    </option>
+                    <option value="title ASC">
+                        <locale group="quiqqer/quiqqer" var="title_asc"/>
+                    </option>
+                    <option value="title DESC">
+                        <locale group="quiqqer/quiqqer" var="title_desc"/>
+                    </option>
+                    <option value="c_date ASC">
+                        <locale group="quiqqer/quiqqer" var="c_date_asc"/>
+                    </option>
+                    <option value="c_date DESC">
+                        <locale group="quiqqer/quiqqer" var="c_date_desc"/>
+                    </option>
+                    <option value="e_date ASC">
+                        <locale group="quiqqer/quiqqer" var="e_date_asc"/>
+                    </option>
+                    <option value="e_date DESC">
+                        <locale group="quiqqer/quiqqer" var="e_date_desc"/>
+                    </option>
+                    <option value="release_from ASC">
+                        <locale group="quiqqer/quiqqer" var="release_from_asc"/>
+                    </option>
+                    <option value="release_from DESC">
+                        <locale group="quiqqer/quiqqer" var="release_from_desc"/>
+                    </option>
+                </setting>
+
+                <setting name="stayOpen" type="checkbox">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.stayOpen"/>
+
+                    <description>
+                        <locale group="quiqqer/faq" var="brick.accordion.settings.stayOpen.desc"/>
+                    </description>
+                </setting>
+
+                <setting name="openFirst" type="checkbox">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.openFirst"/>
+                </setting>
+
+                <setting name="listMaxWidth" type="number" min="0" max="1920">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.listMaxWidth"/>
+                    <description>
+                        <locale group="quiqqer/faq" var="brick.accordion.settings.listMaxWidth.desc"/>
+                    </description>
+                </setting>
+
+                <setting name="max" type="number">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.max"/>
+                </setting>
+
+                <setting name="showMoreButton" type="checkbox">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.showMoreButton"/>
+                    <description>
+                        <locale group="quiqqer/faq" var="brick.accordion.settings.showMoreButton.desc"/>
+                    </description>
+                </setting>
+
+            </settings>
+        </brick>
+    </bricks>
+</quiqqer>
