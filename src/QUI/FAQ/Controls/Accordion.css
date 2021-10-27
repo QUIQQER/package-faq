@@ -1,5 +1,6 @@
-.quiqqer-faqAccordion-item-content-pageShort {
-    margin-bottom: 1rem;
+.quiqqer-faqAccordion-item-content-pageShort,
+.quiqqer-faqAccordion-item-content-pageContent {
+    margin-bottom: var(--spacing, 1rem);
 }
 
 .quiqqer-faqAccordion-moreButton {

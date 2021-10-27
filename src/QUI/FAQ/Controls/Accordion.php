@@ -100,7 +100,7 @@ class Accordion extends QUI\Control
             $content = $FaqSite->getAttribute('content');
 
             if ($short) {
-                $short = '<div class="quiqqer-faqAccordion-item-content-pageShort">'.$short.'</div>';
+                $short = '<div class="quiqqer-faqAccordion-item-content-pageShort text-muted">'.$short.'</div>';
             }
 
             if ($content) {
