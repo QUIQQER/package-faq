@@ -75,12 +75,16 @@
 
         <!-- Brick: FAQ Accordion Menu  -->
         <locale name="brick.accordion.title">
-            <de><![CDATA[FAQ Akkordeon Menü]]></de>
-            <en><![CDATA[FAQ Accordion Menu]]></en>
+            <de><![CDATA[FAQ: Akkordeon Menü]]></de>
+            <en><![CDATA[FAQ: Accordion Menu]]></en>
         </locale>
         <locale name="brick.accordion.description">
             <de><![CDATA[Der Baustein zeigt die FAQ Einträge als modernes Akkordeon-Menü.]]></de>
             <en><![CDATA[This brick shows the FAQ entries as a modern accordion menu.]]></en>
+        </locale>
+        <locale name="brick.accordion.settings.site">
+            <de><![CDATA[FAQ Kategorie Seite]]></de>
+            <en><![CDATA[FAQ category site]]></en>
         </locale>
         <locale name="brick.accordion.settings.site.desc">
             <de><![CDATA[Nur die FAQ-Einträge der Seite werden beachtet.]]></de>
