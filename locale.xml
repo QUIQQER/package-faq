@@ -131,7 +131,7 @@
             <en><![CDATA[The button is not displayed if there are not more entries than the brick displays. If the brick lists 10 entries and there are only 5 faq entries, no button will be displayed. Please note the <strong>"Maximum number of entries"</strong> setting.]]></en>
         </locale>
         <locale name="brick.accordion.button.more">
-            <de><![CDATA[Weitere FAQ-Einträgen]]></de>
+            <de><![CDATA[Weitere FAQ Einträge]]></de>
             <en><![CDATA[More FAQ entries]]></en>
         </locale>
     </groups>
