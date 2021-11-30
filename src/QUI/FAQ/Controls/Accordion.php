@@ -59,7 +59,11 @@ class Accordion extends QUI\Control
 
         if ($this->getAttribute('parentSite')) {
             try {
-                $FAQParentSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('parentSite'));
+                if ($this->getAttribute('parentSite') instanceof \QUI\Projects\Site) {
+                    $FAQParentSite = $this->getAttribute('parentSite');
+                } else {
+                    $FAQParentSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('parentSite'));
+                }
             } catch (QUI\Exception $Exception) {
                 QUI\System\Log::addDebug($Exception->getMessage());
 
