@@ -122,7 +122,7 @@ class Accordion extends QUI\Control
         }
 
         $Accordion = new QUI\Bricks\Controls\Accordion([
-            'stayOpen'     => $this->getAttribute('stayOpen'),
+            'stayOpen'     => \boolval($this->getAttribute('stayOpen')),
             'openFirst'    => $this->getAttribute('openFirst'),
             'listMaxWidth' => $this->getAttribute('listMaxWidth'),
             'entries'      => $entries
