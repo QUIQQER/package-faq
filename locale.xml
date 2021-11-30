@@ -69,8 +69,24 @@
             <en><![CDATA[Offset]]></en>
         </locale>
         <locale name="quiqqer.faq.category.settings.offset.desc">
-            <de><![CDATA[Der Versatz (in Pixel) sagt, um wie viele zusätzliche Pixel soll die Seite gescrollt werden, wenn man ein FAQ Titel anklickt. Das ist vor allem dann hilfreich, wenn das Menü den Inhalt verdecken würde.]]></de>
-            <en><![CDATA[The offset (in pixels) specifies how many additional pixels the page should scroll when you click on a FAQ title. By doing this the menu no longer hides the linked content.]]></en>
+            <de><![CDATA[Der Versatz (in Pixel) sagt, um wie viele zusätzliche Pixel soll die Seite gescrollt werden, wenn man ein FAQ Titel anklickt. Das ist vor allem dann hilfreich, wenn das Menü den Inhalt verdecken würde. Es funktioniert nur im Standard-Template.]]></de>
+            <en><![CDATA[The offset (in pixels) specifies how many additional pixels the page should scroll when you click on a FAQ title. By doing this the menu no longer hides the linked content. It takes affect in default template.]]></en>
+        </locale>
+        <locale name="quiqqer.faq.category.settings.template">
+            <de><![CDATA[Template]]></de>
+            <en><![CDATA[Template]]></en>
+        </locale>
+        <locale name="quiqqer.faq.category.settings.template.default">
+            <de><![CDATA[Standard]]></de>
+            <en><![CDATA[Default]]></en>
+        </locale>
+        <locale name="quiqqer.faq.category.settings.template.accordion">
+            <de><![CDATA[FAQ Akkordeon Menü]]></de>
+            <en><![CDATA[FAQ Accordion Menu]]></en>
+        </locale>
+        <locale name="quiqqer.faq.settings.accordion.stayOpen">
+            <de><![CDATA[FAQ Akkordeon Menü: Einträge bleiben auf]]></de>
+            <en><![CDATA[FAQ Accordion Menu: Entries stay open]]></en>
         </locale>
 
         <!-- Brick: FAQ Accordion Menu  -->
@@ -127,7 +143,7 @@
             <en><![CDATA[Show "more entries" button]]></en>
         </locale>
         <locale name="brick.accordion.settings.showMoreButton.desc" html="true">
-            <de><![CDATA[Der Button wird nicht angezeigt, wenn es nicht mehr Einträgen gibt, als der Baustein anzeigt. Wenn der Baustein 10 Einträge listet aber es nur 5 FAQ Einträgen gibt, wird kein Button angezeigt. Bitte die Einstellungn <strong>"Maximale Anzahl der Einträge"</strong> beachten.]]></de>
+            <de><![CDATA[Der Button wird nicht angezeigt, wenn es nicht mehr Einträge gibt, als der Baustein anzeigt. Wenn der Baustein 10 Einträge listet aber es nur 5 FAQ Einträgen gibt, wird kein Button angezeigt. Bitte die Einstellungn <strong>"Maximale Anzahl der Einträge"</strong> beachten.]]></de>
             <en><![CDATA[The button is not displayed if there are not more entries than the brick displays. If the brick lists 10 entries and there are only 5 faq entries, no button will be displayed. Please note the <strong>"Maximum number of entries"</strong> setting.]]></en>
         </locale>
         <locale name="brick.accordion.button.more">

@@ -59,7 +59,11 @@ class Accordion extends QUI\Control
 
         if ($this->getAttribute('parentSite')) {
             try {
-                $FAQParentSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('parentSite'));
+                if ($this->getAttribute('parentSite') instanceof \QUI\Projects\Site) {
+                    $FAQParentSite = $this->getAttribute('parentSite');
+                } else {
+                    $FAQParentSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('parentSite'));
+                }
             } catch (QUI\Exception $Exception) {
                 QUI\System\Log::addDebug($Exception->getMessage());
 
@@ -118,7 +122,7 @@ class Accordion extends QUI\Control
         }
 
         $Accordion = new QUI\Bricks\Controls\Accordion([
-            'stayOpen'     => $this->getAttribute('stayOpen'),
+            'stayOpen'     => \boolval($this->getAttribute('stayOpen')),
             'openFirst'    => $this->getAttribute('openFirst'),
             'listMaxWidth' => $this->getAttribute('listMaxWidth'),
             'entries'      => $entries
