@@ -105,6 +105,10 @@ define('package/quiqqer/faq/bin/Category', [
                     y: -this.offset
                 },
                 onComplete: function () {
+                    if (window.location.hash === '#' + href[1]) {
+                        return;
+                    }
+
                     window.location = '#' + href[1];
                 }
             }).toElement(Article, 'y');
@@ -126,6 +130,10 @@ define('package/quiqqer/faq/bin/Category', [
                     y: -this.offset
                 },
                 onComplete: function () {
+                    if (window.location.hash === '#' + self.FAQList.getAttribute('name')) {
+                        return;
+                    }
+
                     window.location = '#' + self.FAQList.getAttribute('name');
                 }
             }).toElement(this.FAQList);
