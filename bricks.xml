@@ -89,6 +89,14 @@
                     </description>
                 </setting>
 
+                <!-- more site -->
+                <setting name="moreSite" class="project-site">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.moreSite"/>
+                    <description>
+                        <locale group="quiqqer/faq" var="brick.accordion.settings.moreSite.desc"/>
+                    </description>
+                </setting>
+
             </settings>
         </brick>
     </bricks>
