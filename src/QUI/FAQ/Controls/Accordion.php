@@ -34,7 +34,8 @@ class Accordion extends QUI\Control
             'max'            => 10, // max entries
             'parentSite'     => null,
             'siteType'       => 'quiqqer/faq:types/entry',
-            'showMoreButton' => false
+            'showMoreButton' => false,
+            'moreSite'       => ''
         ]);
 
         parent::__construct($attributes);
@@ -65,7 +66,7 @@ class Accordion extends QUI\Control
                     $FAQParentSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('parentSite'));
                 }
             } catch (QUI\Exception $Exception) {
-                QUI\System\Log::addDebug($Exception->getMessage());
+                QUI\System\Log::addInfo($Exception->getMessage());
 
                 return '';
             }
@@ -82,18 +83,29 @@ class Accordion extends QUI\Control
 
         // show "more faq" link
         $showMoreButton = $this->getAttribute('showMoreButton');
+        $MoreSite       = $FAQParentSite;
 
-        if ($showMoreButton) {
-            $countFaqEntries = $FAQParentSite->getChildren([
-                'where' => [
-                    'active' => 1,
-                    'type'   => $this->getAttribute('siteType'),
-                ],
-                'count' => 1
-            ]);
+        if ($showMoreButton || $this->getAttribute('moreSite')) {
+            if ($this->getAttribute('moreSite')) {
+                try {
+                    $MoreSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('moreSite'));
+                    $showMoreButton = true;
+                } catch (QUI\Exception $Exception) {
+                    QUI\System\Log::addInfo($Exception->getMessage());
+                    $MoreSite = null;
+                }
+            } else {
+                $countFaqEntries = $FAQParentSite->getChildren([
+                    'where' => [
+                        'active' => 1,
+                        'type'   => $this->getAttribute('siteType'),
+                    ],
+                    'count' => 1
+                ]);
 
-            if ($countFaqEntries <= $this->getAttribute('max')) {
-                $showMoreButton = false;
+                if ($countFaqEntries <= $this->getAttribute('max')) {
+                    $showMoreButton = false;
+                }
             }
         }
 
@@ -134,7 +146,7 @@ class Accordion extends QUI\Control
             'this'           => $this,
             'Accordion'      => $Accordion,
             'showMoreButton' => $showMoreButton,
-            'FAQParentSite'  => $FAQParentSite
+            'MoreSite'       => $MoreSite
         ]);
 
         return $Engine->fetch(dirname(__FILE__).'/Accordion.html');

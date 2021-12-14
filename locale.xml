@@ -103,8 +103,8 @@
             <en><![CDATA[FAQ category site]]></en>
         </locale>
         <locale name="brick.accordion.settings.site.desc">
-            <de><![CDATA[Nur die FAQ-Einträge der Seite werden beachtet.]]></de>
-            <en><![CDATA[Only the FAQ entries of the page are listed.]]></en>
+            <de><![CDATA[Nur die Unterseiten vom Typ "FAQ-Eintrag" werden angezeigt.]]></de>
+            <en><![CDATA[Only the subpages of the "FAQ Entry" type are displayed.]]></en>
         </locale>
         <locale name="brick.accordion.settings.order">
             <de><![CDATA[Reihenfolge]]></de>
@@ -149,6 +149,14 @@
         <locale name="brick.accordion.button.more">
             <de><![CDATA[Weitere FAQ Einträge]]></de>
             <en><![CDATA[More FAQ entries]]></en>
+        </locale>
+        <locale name="brick.accordion.settings.moreSite">
+            <de><![CDATA["Weitere Einträge" Seite]]></de>
+            <en><![CDATA["More entries" site]]></en>
+        </locale>
+        <locale name="brick.accordion.settings.moreSite.desc" html="true">
+            <de><![CDATA[Seite mit weiteren Informationen. Wenn ausgewählt, wird der Button "Weitere Einträge" unter der FAQ List <strong>immer</strong> angezeigt.]]></de>
+            <en><![CDATA[Page with further information. If selected, the "More entries" button will <strong>always</strong> be displayed below the FAQ List.]]></en>
         </locale>
     </groups>
 </locales>
