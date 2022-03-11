@@ -26,16 +26,17 @@ class Accordion extends QUI\Control
     {
         // default options
         $this->setAttributes([
-            'class'          => 'quiqqer-faqAccordion',
-            'order'          => 'order_field',
-            'stayOpen'       => true, // if true make accordion items stay open when another item is opened
-            'openFirst'      => true, // the first entry is initially opened
-            'listMaxWidth'   => 0, // positive numbers only, 0 disabled this option.
-            'max'            => 10, // max entries
-            'parentSite'     => null,
-            'siteType'       => 'quiqqer/faq:types/entry',
-            'showMoreButton' => false,
-            'moreSite'       => ''
+            'class'                => 'quiqqer-faqAccordion',
+            'order'                => 'order_field',
+            'stayOpen'             => true, // if true make accordion items stay open when another item is opened
+            'openFirst'            => true, // the first entry is initially opened
+            'listMaxWidth'         => 0, // positive numbers only, 0 disabled this option.
+            'max'                  => 10, // max entries
+            'parentSite'           => null,
+            'siteType'             => 'quiqqer/faq:types/entry',
+            'showMoreButton'       => false,
+            'moreSite'             => '',
+            'useFaqStructuredData' => false
         ]);
 
         parent::__construct($attributes);
@@ -88,7 +89,7 @@ class Accordion extends QUI\Control
         if ($showMoreButton || $this->getAttribute('moreSite')) {
             if ($this->getAttribute('moreSite')) {
                 try {
-                    $MoreSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('moreSite'));
+                    $MoreSite       = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('moreSite'));
                     $showMoreButton = true;
                 } catch (QUI\Exception $Exception) {
                     QUI\System\Log::addInfo($Exception->getMessage());
@@ -134,10 +135,11 @@ class Accordion extends QUI\Control
         }
 
         $Accordion = new QUI\Bricks\Controls\Accordion([
-            'stayOpen'     => \boolval($this->getAttribute('stayOpen')),
-            'openFirst'    => $this->getAttribute('openFirst'),
-            'listMaxWidth' => $this->getAttribute('listMaxWidth'),
-            'entries'      => $entries
+            'stayOpen'             => \boolval($this->getAttribute('stayOpen')),
+            'openFirst'            => $this->getAttribute('openFirst'),
+            'listMaxWidth'         => $this->getAttribute('listMaxWidth'),
+            'entries'              => $entries,
+            'useFaqStructuredData' => $this->getAttribute('useFaqStructuredData'),
         ]);
 
         $this->addCSSFiles($Accordion->getCSSFiles());

@@ -97,6 +97,13 @@
                     </description>
                 </setting>
 
+                 <setting name="useFaqStructuredData" type="checkbox">
+                    <locale group="quiqqer/faq" var="brick.accordion.settings.useFaqStructuredData"/>
+                     <description>
+                         <locale group="quiqqer/faq" var="brick.accordion.settings.useFaqStructuredData.desc"/>
+                     </description>
+                </setting>
+
             </settings>
         </brick>
     </bricks>
