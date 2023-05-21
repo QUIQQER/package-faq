@@ -43,6 +43,18 @@
             <de><![CDATA[FAQ-Eintrag]]></de>
             <en><![CDATA[FAQ Entry]]></en>
         </locale>
+
+        <locale name="faq.settings.useFaqStructuredData">
+            <de><![CDATA[FAQ Schema Markup aktivieren]]></de>
+            <en><![CDATA[Use FAQ schema markup]]></en>
+        </locale>
+        <locale name="faq.settings.useFaqStructuredData.desc">
+            <de><![CDATA[Wenn die Option aktiviert ist, wird ein JSON-LD Code Snippet generiert. Dadurch kann Google die FAQ Einträgen direkt in den Suchergebnissen einblenden. Mehr zu diesem Thema auf
+            <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Häufig gestellte Fragen mit strukturierten Daten auszeichnen</a>.]]></de>
+            <en><![CDATA[If enabled a JSON-LD code snippet will be generated. This allows Google to display the FAQ entries directly in the search results. More on this topic at
+            <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Mark up your FAQs with structured data</a>.]]></en>
+        </locale>
+
         <locale name="quiqqer/faq:types/category.title">
             <de><![CDATA[FAQ-Kategorie ]]></de>
             <en><![CDATA[FAQ Category]]></en>
@@ -157,16 +169,6 @@
         <locale name="brick.accordion.settings.moreSite.desc" html="true">
             <de><![CDATA[Seite mit weiteren Informationen. Wenn ausgewählt, wird der Button "Weitere Einträge" unter der FAQ List <strong>immer</strong> angezeigt.]]></de>
             <en><![CDATA[Page with further information. If selected, the "More entries" button will <strong>always</strong> be displayed below the FAQ List.]]></en>
-        </locale>
-        <locale name="brick.accordion.settings.useFaqStructuredData">
-            <de><![CDATA[FAQ Schema Markup aktivieren]]></de>
-            <en><![CDATA[Use FAQ schema markup]]></en>
-        </locale>
-        <locale name="brick.accordion.settings.useFaqStructuredData.desc" html="true">
-            <de><![CDATA[Wenn die Option aktiviert ist, wird ein JSON-LD Code Snippet generiert. Dadurch kann Google die FAQ Einträgen direkt in der Suchergebnissen einblenden. Mehr zu diesem Thema auf
-            <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Häufig gestellte Fragen mit strukturierten Daten auszeichnen</a>.]]></de>
-            <en><![CDATA[If enabled a JSON-LD code snippet will be generated. This allows Google to display the FAQ entries directly in the search results. More on this topic at
-            <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Mark up your FAQs with structured data</a>.]]></en>
         </locale>
     </groups>
 </locales>
