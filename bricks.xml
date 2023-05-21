@@ -98,9 +98,9 @@
                 </setting>
 
                  <setting name="useFaqStructuredData" type="checkbox">
-                    <locale group="quiqqer/faq" var="brick.accordion.settings.useFaqStructuredData"/>
+                    <locale group="quiqqer/faq" var="faq.settings.useFaqStructuredData"/>
                      <description>
-                         <locale group="quiqqer/faq" var="brick.accordion.settings.useFaqStructuredData.desc"/>
+                         <locale group="quiqqer/faq" var="faq.settings.useFaqStructuredData.desc"/>
                      </description>
                 </setting>
 

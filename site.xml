@@ -16,6 +16,7 @@
             </desc>
 
             <attributes>
+                <attribute default="1">quiqqer.faq.settings.useFaqStructuredData</attribute>
                 <attribute default="default">quiqqer.faq.settings.template</attribute>
                 <attribute default="1">quiqqer.faq.settings.accordion.stayOpen</attribute>
                 <attribute default="0">quiqqer.faq.settings.offset</attribute>
@@ -27,6 +28,15 @@
                         <title>
                             <locale group="quiqqer/faq" var="quiqqer.faq.category.settings.title"/>
                         </title>
+
+                        <input conf="quiqqer.faq.settings.useFaqStructuredData" type="checkbox">
+                            <text>
+                                <locale group="quiqqer/faq" var="faq.settings.useFaqStructuredData"/>
+                            </text>
+                            <description>
+                                <locale group="quiqqer/faq" var="faq.settings.useFaqStructuredData.desc"/>
+                            </description>
+                        </input>
 
                         <select conf="quiqqer.faq.settings.template">
                             <text>
