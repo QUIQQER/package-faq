@@ -54,7 +54,7 @@ class Accordion extends QUI\Control
      *
      * @return String
      */
-    public function getBody()
+    public function getBody(): string
     {
         $FAQParentSite = null;
         $Engine        = QUI::getTemplateManager()->getEngine();
