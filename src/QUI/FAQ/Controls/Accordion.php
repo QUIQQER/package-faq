@@ -7,7 +7,11 @@
 namespace QUI\FAQ\Controls;
 
 use QUI;
+use QUI\Exception;
+use QUI\Projects\Site;
 use QUI\Projects\Site\Utils;
+
+use function boolval;
 
 /**
  * Class Listing
@@ -22,7 +26,7 @@ class Accordion extends QUI\Control
      *
      * @param array $attributes
      */
-    public function __construct($attributes = [])
+    public function __construct(array $attributes = [])
     {
         // default options
         $this->setAttributes([
@@ -53,6 +57,7 @@ class Accordion extends QUI\Control
      * Can be overwritten
      *
      * @return String
+     * @throws Exception
      */
     public function getBody(): string
     {
@@ -61,10 +66,10 @@ class Accordion extends QUI\Control
 
         if ($this->getAttribute('parentSite')) {
             try {
-                if ($this->getAttribute('parentSite') instanceof \QUI\Projects\Site) {
+                if ($this->getAttribute('parentSite') instanceof Site) {
                     $FAQParentSite = $this->getAttribute('parentSite');
                 } else {
-                    $FAQParentSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('parentSite'));
+                    $FAQParentSite = Utils::getSiteByLink($this->getAttribute('parentSite'));
                 }
             } catch (QUI\Exception $Exception) {
                 QUI\System\Log::addInfo($Exception->getMessage());
@@ -89,7 +94,7 @@ class Accordion extends QUI\Control
         if ($showMoreButton || $this->getAttribute('moreSite')) {
             if ($this->getAttribute('moreSite')) {
                 try {
-                    $MoreSite = \QUI\Projects\Site\Utils::getSiteByLink($this->getAttribute('moreSite'));
+                    $MoreSite = Utils::getSiteByLink($this->getAttribute('moreSite'));
                     $showMoreButton = true;
                 } catch (QUI\Exception $Exception) {
                     QUI\System\Log::addInfo($Exception->getMessage());
@@ -135,7 +140,7 @@ class Accordion extends QUI\Control
         }
 
         $Accordion = new QUI\Bricks\Controls\Accordion([
-            'stayOpen' => \boolval($this->getAttribute('stayOpen')),
+            'stayOpen' => boolval($this->getAttribute('stayOpen')),
             'openFirst' => $this->getAttribute('openFirst'),
             'listMaxWidth' => $this->getAttribute('listMaxWidth'),
             'entries' => $entries,
