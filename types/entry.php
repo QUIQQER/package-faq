@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * This file contains the faq entry site type
  *
@@ -9,7 +8,6 @@
  * @var QUI\Interfaces\Template\EngineInterface $Engine
  * @var QUI\Template $Template
  **/
-
 
 $Parent = $Site->getParent();
 $parentType = $Parent->getAttribute('type');
