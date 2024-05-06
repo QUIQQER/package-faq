@@ -1,30 +1,30 @@
 {
-    "name": "quiqqer\/faq",
-    "type": "quiqqer-module",
-    "description": "With the FAQ page types it is easy to create FAQs for your users.",
-    "license": [
-        "PCSG QL-1.0",
-        "CC BY-NC-SA 4.0"
-    ],
-    "authors": [
-        {
-            "name": "Henning Leutz",
-            "email": "leutz@pcsg.de",
-            "homepage": "http:\/\/www.pcsg.de",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "email": "support@pcsg.de",
-        "url": "http:\/\/www.pcsg.de"
-    },
-    "require": {
-        "php": ">=5.3",
-        "quiqqer\/quiqqer": "*@dev"
-    },
-    "autoload": {
-        "psr-4": {
-            "QUI\\FAQ\\": "src\/QUI\/FAQ\/"
-        }
+  "name": "quiqqer/faq",
+  "type": "quiqqer-module",
+  "description": "With the FAQ page types it is easy to create FAQs for your users.",
+  "license": [
+    "PCSG QL-1.0",
+    "CC BY-NC-SA 4.0"
+  ],
+  "authors": [
+    {
+      "name": "Henning Leutz",
+      "email": "leutz@pcsg.de",
+      "homepage": "https://www.pcsg.de",
+      "role": "Developer"
     }
+  ],
+  "support": {
+    "email": "support@pcsg.de",
+    "url": "https://www.pcsg.de"
+  },
+  "require": {
+    "php": "^8.1",
+    "quiqqer/core": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "QUI\\FAQ\\": "src/QUI/FAQ/"
+    }
+  }
 }
