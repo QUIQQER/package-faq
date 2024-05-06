@@ -1,9 +1,18 @@
 <?php
 
-$categories = $Site->getChildren(array(
-    'type' => 'quiqqer/faq:types/category'
-));
+/**
+ * This file contains the faq list site type
+ *
+ * @var QUI\Projects\Project $Project
+ * @var QUI\Projects\Site $Site
+ * @var QUI\Interfaces\Template\EngineInterface $Engine
+ * @var QUI\Template $Template
+ **/
 
-$Engine->assign(array(
+$categories = $Site->getChildren([
+    'type' => 'quiqqer/faq:types/category'
+]);
+
+$Engine->assign([
     'categories' => $categories
-));
+]);
