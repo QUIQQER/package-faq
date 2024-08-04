@@ -30,6 +30,7 @@
     scroll-margin-top: var(--_qui-faq-scrollOffset, 0);
     display: flow-root;
     margin-block: 1rem;
+    width: 100%;
 }
 
 .quiqqer-faq-list li:hover:before {
