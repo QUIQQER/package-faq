@@ -4,369 +4,799 @@
         <locale name="package.title">
             <de><![CDATA[QUIQQER - FAQ (Häufig gestellte Fragen)]]></de>
             <en><![CDATA[QUIQQER: FAQ]]></en>
+            <es><![CDATA[QUIQQER - FAQ (Preguntas frecuentes)]]></es>
+            <pt><![CDATA[QUIQQER - FAQ (Perguntas frequentes)]]></pt>
+            <fr><![CDATA[QUIQQER - FAQ (Foire aux questions)]]></fr>
+            <it><![CDATA[QUIQQER - FAQ (Domande frequenti)]]></it>
+            <pl><![CDATA[QUIQQER - FAQ (Najczęściej zadawane pytania)]]></pl>
         </locale>
         <locale name="package.description">
-            <de><![CDATA[Mit den FAQ Seitentypen ist es einfach FAQ für Ihre Benutzer anzulegen. ]]></de>
+            <de><![CDATA[Mit den FAQ-Seitentypen ist es einfach, FAQ für Ihre Benutzer anzulegen.]]></de>
             <en><![CDATA[With the FAQ page types it is easy to create FAQ for your users.]]></en>
+            <es><![CDATA[Los tipos de página FAQ permiten crear fácilmente una sección de preguntas frecuentes para tus usuarios.]]></es>
+            <pt><![CDATA[Os tipos de página FAQ permitem criar facilmente uma secção de perguntas frequentes para os teus utilizadores.]]></pt>
+            <fr><![CDATA[Les types de pages FAQ permettent de créer facilement une foire aux questions pour vos utilisateurs.]]></fr>
+            <it><![CDATA[I tipi di pagina FAQ permettono di creare facilmente una sezione di domande frequenti per i tuoi utenti.]]></it>
+            <pl><![CDATA[Typy stron FAQ ułatwiają tworzenie sekcji najczęściej zadawanych pytań dla użytkowników.]]></pl>
         </locale>
         <locale name="quiqqer/faq:types/list.title">
             <de><![CDATA[FAQ-Liste]]></de>
             <en><![CDATA[FAQ List]]></en>
+            <es><![CDATA[Lista de FAQ]]></es>
+            <pt><![CDATA[Lista de FAQ]]></pt>
+            <fr><![CDATA[Liste FAQ]]></fr>
+            <it><![CDATA[Elenco FAQ]]></it>
+            <pl><![CDATA[Lista FAQ]]></pl>
         </locale>
     </groups>
     <groups name="quiqqer/faq" datatype="php,js">
         <locale name="admin.types.faq.entry">
             <de><![CDATA[FAQ-Eintrag]]></de>
             <en><![CDATA[FAQ Entry]]></en>
+            <es><![CDATA[Entrada FAQ]]></es>
+            <pt><![CDATA[Entrada FAQ]]></pt>
+            <fr><![CDATA[Entrée FAQ]]></fr>
+            <it><![CDATA[Voce FAQ]]></it>
+            <pl><![CDATA[Wpis FAQ]]></pl>
         </locale>
         <locale name="admin.types.faq.list">
             <de><![CDATA[FAQ-Liste (deprecated)]]></de>
             <en><![CDATA[FAQ: List (deprecated)]]></en>
+            <es><![CDATA[Lista de FAQ (obsoleta)]]></es>
+            <pt><![CDATA[Lista de FAQ (obsoleta)]]></pt>
+            <fr><![CDATA[Liste FAQ (obsolète)]]></fr>
+            <it><![CDATA[Elenco FAQ (obsoleto)]]></it>
+            <pl><![CDATA[Lista FAQ (przestarzała)]]></pl>
         </locale>
         <locale name="admin.types.faq.list2025">
             <de><![CDATA[FAQ-Liste]]></de>
             <en><![CDATA[FAQ: List]]></en>
+            <es><![CDATA[Lista de FAQ]]></es>
+            <pt><![CDATA[Lista de FAQ]]></pt>
+            <fr><![CDATA[Liste FAQ]]></fr>
+            <it><![CDATA[Elenco FAQ]]></it>
+            <pl><![CDATA[Lista FAQ]]></pl>
         </locale>
         <locale name="admin.types.faq.list2025.desc">
             <de><![CDATA[Verbesserte FAQ-Liste mit korrekten semantischen Elementen und Schema Markup.]]></de>
             <en><![CDATA[Improved FAQ List with correct semantic elements and Schema Markup.]]></en>
+            <es><![CDATA[Lista de FAQ mejorada con elementos semánticos adecuados y marcado de datos estructurados.]]></es>
+            <pt><![CDATA[Lista de FAQ melhorada com elementos semânticos adequados e marcação de dados estruturados.]]></pt>
+            <fr><![CDATA[Liste FAQ améliorée avec des éléments sémantiques appropriés et un balisage de données structurées.]]></fr>
+            <it><![CDATA[Elenco FAQ migliorato con elementi semantici corretti e markup dei dati strutturati.]]></it>
+            <pl><![CDATA[Ulepszona lista FAQ z prawidłowymi elementami semantycznymi i znacznikami danych strukturalnych.]]></pl>
         </locale>
         <locale name="quiqqer.faq.list.settings.title">
             <de><![CDATA[FAQ-Liste: Einstellungen]]></de>
             <en><![CDATA[FAQ List: Settings]]></en>
+            <es><![CDATA[Lista de FAQ: configuración]]></es>
+            <pt><![CDATA[Lista de FAQ: definições]]></pt>
+            <fr><![CDATA[Liste FAQ : paramètres]]></fr>
+            <it><![CDATA[Elenco FAQ: impostazioni]]></it>
+            <pl><![CDATA[Lista FAQ: ustawienia]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.title">
             <de><![CDATA[FAQ-Liste: Einstellungen]]></de>
             <en><![CDATA[FAQ List: Settings]]></en>
+            <es><![CDATA[Lista de FAQ: configuración]]></es>
+            <pt><![CDATA[Lista de FAQ: definições]]></pt>
+            <fr><![CDATA[Liste FAQ : paramètres]]></fr>
+            <it><![CDATA[Elenco FAQ: impostazioni]]></it>
+            <pl><![CDATA[Lista FAQ: ustawienia]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.template">
             <de><![CDATA[Vorlage]]></de>
             <en><![CDATA[Template]]></en>
+            <es><![CDATA[Plantilla]]></es>
+            <pt><![CDATA[Modelo]]></pt>
+            <fr><![CDATA[Modèle]]></fr>
+            <it><![CDATA[Modello]]></it>
+            <pl><![CDATA[Szablon]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.template.default">
             <de><![CDATA[Standard]]></de>
             <en><![CDATA[Default]]></en>
+            <es><![CDATA[Predeterminada]]></es>
+            <pt><![CDATA[Predefinido]]></pt>
+            <fr><![CDATA[Par défaut]]></fr>
+            <it><![CDATA[Predefinito]]></it>
+            <pl><![CDATA[Domyślny]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.showImage">
             <de><![CDATA[Bild / Icon anzeigen]]></de>
             <en><![CDATA[Show image / icon]]></en>
+            <es><![CDATA[Mostrar imagen o icono]]></es>
+            <pt><![CDATA[Mostrar imagem ou ícone]]></pt>
+            <fr><![CDATA[Afficher l'image ou l'icône]]></fr>
+            <it><![CDATA[Mostra immagine o icona]]></it>
+            <pl><![CDATA[Pokaż obraz lub ikonę]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.showImage.desc">
             <de><![CDATA[Wenn aktiviert und die Seite ein Bild enthält, wird das Bild angezeigt. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
             <en><![CDATA[If enabled and the page contains an image or icon, the image or icon will be displayed. <strong>Note:</strong> Not every template supports this option.]]></en>
+            <es><![CDATA[Si esta opción está activada y la página tiene una imagen o un icono, se mostrará. <strong>Nota:</strong> No todas las plantillas admiten esta opción.]]></es>
+            <pt><![CDATA[Se esta opção estiver ativada e a página tiver uma imagem ou um ícone, será apresentado. <strong>Nota:</strong> Nem todos os modelos suportam esta opção.]]></pt>
+            <fr><![CDATA[Si cette option est activée et que la page contient une image ou une icône, celle-ci sera affichée. <strong>Remarque :</strong> Tous les modèles ne prennent pas en charge cette option.]]></fr>
+            <it><![CDATA[Se questa opzione è attiva e la pagina contiene un'immagine o un'icona, verrà mostrata. <strong>Nota:</strong> Non tutti i modelli supportano questa opzione.]]></it>
+            <pl><![CDATA[Po włączeniu tej opcji wyświetlany jest obraz lub ikona przypisana do strony. <strong>Uwaga:</strong> Nie każdy szablon obsługuje tę opcję.]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.imageWidth">
             <de><![CDATA[Bildbreite]]></de>
             <en><![CDATA[Image width]]></en>
+            <es><![CDATA[Ancho de la imagen]]></es>
+            <pt><![CDATA[Largura da imagem]]></pt>
+            <fr><![CDATA[Largeur de l'image]]></fr>
+            <it><![CDATA[Larghezza dell'immagine]]></it>
+            <pl><![CDATA[Szerokość obrazu]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.imageWidth.desc">
             <de><![CDATA[Maximale Breite des Bildes. <strong>Hinweis:</strong> Nur valide CSS-Werte mit Einheiten sind erlaubt. Beispiele: 10rem, 100px, 50%, 10vw, etc.]]></de>
             <en><![CDATA[Maximum width of the image. <strong>Note:</strong> Only valid CSS values with units are allowed. Examples: 10rem, 100px, 50%, 10vw, etc.]]></en>
+            <es><![CDATA[Ancho máximo de la imagen. <strong>Nota:</strong> Solo se permiten valores CSS válidos con unidades, por ejemplo: 10rem, 100px, 50%, 10vw.]]></es>
+            <pt><![CDATA[Largura máxima da imagem. <strong>Nota:</strong> Só são permitidos valores CSS válidos com unidades, por exemplo: 10rem, 100px, 50%, 10vw.]]></pt>
+            <fr><![CDATA[Largeur maximale de l'image. <strong>Remarque :</strong> Seules les valeurs CSS valides avec unités sont autorisées, par exemple : 10rem, 100px, 50%, 10vw.]]></fr>
+            <it><![CDATA[Larghezza massima dell'immagine. <strong>Nota:</strong> Sono ammessi solo valori CSS validi con unità, ad esempio: 10rem, 100px, 50%, 10vw.]]></it>
+            <pl><![CDATA[Maksymalna szerokość obrazu. <strong>Uwaga:</strong> Dozwolone są tylko prawidłowe wartości CSS z jednostkami, np. 10rem, 100px, 50%, 10vw.]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.imageAlignment">
-            <de><![CDATA[Bild / Icon Positionierung]]></de>
+            <de><![CDATA[Bild-/Icon-Ausrichtung]]></de>
             <en><![CDATA[Image / icon alignment]]></en>
+            <es><![CDATA[Alineación de la imagen o el icono]]></es>
+            <pt><![CDATA[Alinhamento da imagem ou do ícone]]></pt>
+            <fr><![CDATA[Alignement de l'image ou de l'icône]]></fr>
+            <it><![CDATA[Allineamento dell'immagine o dell'icona]]></it>
+            <pl><![CDATA[Wyrównanie obrazu lub ikony]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.imageAlignment.desc">
             <de><![CDATA[Bestimmt die Position des Bildes. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
             <en><![CDATA[Determines the position of the image or icon. <strong>Note:</strong> Not every template supports this option.]]></en>
+            <es><![CDATA[Determina la posición de la imagen o el icono. <strong>Nota:</strong> No todas las plantillas admiten esta opción.]]></es>
+            <pt><![CDATA[Define a posição da imagem ou do ícone. <strong>Nota:</strong> Nem todos os modelos suportam esta opção.]]></pt>
+            <fr><![CDATA[Détermine la position de l'image ou de l'icône. <strong>Remarque :</strong> Tous les modèles ne prennent pas en charge cette option.]]></fr>
+            <it><![CDATA[Determina la posizione dell'immagine o dell'icona. <strong>Nota:</strong> Non tutti i modelli supportano questa opzione.]]></it>
+            <pl><![CDATA[Określa położenie obrazu lub ikony. <strong>Uwaga:</strong> Nie każdy szablon obsługuje tę opcję.]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.imageAlignment.left">
             <de><![CDATA[Links]]></de>
             <en><![CDATA[Left]]></en>
+            <es><![CDATA[Izquierda]]></es>
+            <pt><![CDATA[Esquerda]]></pt>
+            <fr><![CDATA[À gauche]]></fr>
+            <it><![CDATA[A sinistra]]></it>
+            <pl><![CDATA[Do lewej]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.imageAlignment.center">
             <de><![CDATA[Zentriert]]></de>
             <en><![CDATA[Center]]></en>
+            <es><![CDATA[Centro]]></es>
+            <pt><![CDATA[Centro]]></pt>
+            <fr><![CDATA[Au centre]]></fr>
+            <it><![CDATA[Al centro]]></it>
+            <pl><![CDATA[Do środka]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.imageAlignment.right">
             <de><![CDATA[Rechts]]></de>
             <en><![CDATA[Right]]></en>
+            <es><![CDATA[Derecha]]></es>
+            <pt><![CDATA[Direita]]></pt>
+            <fr><![CDATA[À droite]]></fr>
+            <it><![CDATA[A destra]]></it>
+            <pl><![CDATA[Do prawej]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.iconSize">
-            <de><![CDATA[Icon Größe]]></de>
+            <de><![CDATA[Icon-Größe]]></de>
             <en><![CDATA[Icon size]]></en>
+            <es><![CDATA[Tamaño del icono]]></es>
+            <pt><![CDATA[Tamanho do ícone]]></pt>
+            <fr><![CDATA[Taille de l'icône]]></fr>
+            <it><![CDATA[Dimensione dell'icona]]></it>
+            <pl><![CDATA[Rozmiar ikony]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.iconSize.small">
             <de><![CDATA[Klein]]></de>
             <en><![CDATA[Small]]></en>
+            <es><![CDATA[Pequeño]]></es>
+            <pt><![CDATA[Pequeno]]></pt>
+            <fr><![CDATA[Petite]]></fr>
+            <it><![CDATA[Piccola]]></it>
+            <pl><![CDATA[Mały]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.iconSize.normal">
             <de><![CDATA[Normal]]></de>
             <en><![CDATA[Normal]]></en>
+            <es><![CDATA[Normal]]></es>
+            <pt><![CDATA[Normal]]></pt>
+            <fr><![CDATA[Normale]]></fr>
+            <it><![CDATA[Normale]]></it>
+            <pl><![CDATA[Normalny]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.iconSize.large">
             <de><![CDATA[Groß]]></de>
             <en><![CDATA[Large]]></en>
+            <es><![CDATA[Grande]]></es>
+            <pt><![CDATA[Grande]]></pt>
+            <fr><![CDATA[Grande]]></fr>
+            <it><![CDATA[Grande]]></it>
+            <pl><![CDATA[Duży]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.iconSize.xLarge">
             <de><![CDATA[Sehr groß]]></de>
             <en><![CDATA[Very large]]></en>
+            <es><![CDATA[Muy grande]]></es>
+            <pt><![CDATA[Muito grande]]></pt>
+            <fr><![CDATA[Très grande]]></fr>
+            <it><![CDATA[Molto grande]]></it>
+            <pl><![CDATA[Bardzo duży]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.showTitle">
             <de><![CDATA[Titel anzeigen]]></de>
             <en><![CDATA[Show title]]></en>
+            <es><![CDATA[Mostrar título]]></es>
+            <pt><![CDATA[Mostrar título]]></pt>
+            <fr><![CDATA[Afficher le titre]]></fr>
+            <it><![CDATA[Mostra titolo]]></it>
+            <pl><![CDATA[Pokaż tytuł]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.showTitle.desc">
             <de><![CDATA[Wenn aktiviert, wird der Titel angezeigt. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
             <en><![CDATA[If enabled, the title will be displayed. <strong>Note:</strong> Not every template supports this option.]]></en>
+            <es><![CDATA[Si esta opción está activada, se mostrará el título. <strong>Nota:</strong> No todas las plantillas admiten esta opción.]]></es>
+            <pt><![CDATA[Se esta opção estiver ativada, o título será apresentado. <strong>Nota:</strong> Nem todos os modelos suportam esta opção.]]></pt>
+            <fr><![CDATA[Si cette option est activée, le titre sera affiché. <strong>Remarque :</strong> Tous les modèles ne prennent pas en charge cette option.]]></fr>
+            <it><![CDATA[Se questa opzione è attiva, verrà mostrato il titolo. <strong>Nota:</strong> Non tutti i modelli supportano questa opzione.]]></it>
+            <pl><![CDATA[Po włączeniu tej opcji wyświetlany jest tytuł. <strong>Uwaga:</strong> Nie każdy szablon obsługuje tę opcję.]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.showDesc">
             <de><![CDATA[Beschreibung anzeigen]]></de>
             <en><![CDATA[Show description]]></en>
+            <es><![CDATA[Mostrar descripción]]></es>
+            <pt><![CDATA[Mostrar descrição]]></pt>
+            <fr><![CDATA[Afficher la description]]></fr>
+            <it><![CDATA[Mostra descrizione]]></it>
+            <pl><![CDATA[Pokaż opis]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.showDesc.desc">
             <de><![CDATA[Wenn aktiviert, wird die Beschreibung angezeigt. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
             <en><![CDATA[If enabled, the description will be displayed. <strong>Note:</strong> Not every template supports this option.]]></en>
+            <es><![CDATA[Si esta opción está activada, se mostrará la descripción. <strong>Nota:</strong> No todas las plantillas admiten esta opción.]]></es>
+            <pt><![CDATA[Se esta opção estiver ativada, a descrição será apresentada. <strong>Nota:</strong> Nem todos os modelos suportam esta opção.]]></pt>
+            <fr><![CDATA[Si cette option est activée, la description sera affichée. <strong>Remarque :</strong> Tous les modèles ne prennent pas en charge cette option.]]></fr>
+            <it><![CDATA[Se questa opzione è attiva, verrà mostrata la descrizione. <strong>Nota:</strong> Non tutti i modelli supportano questa opzione.]]></it>
+            <pl><![CDATA[Po włączeniu tej opcji wyświetlany jest opis. <strong>Uwaga:</strong> Nie każdy szablon obsługuje tę opcję.]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.textAlignment">
-            <de><![CDATA[Text Positionierung]]></de>
+            <de><![CDATA[Textausrichtung]]></de>
             <en><![CDATA[Text alignment]]></en>
+            <es><![CDATA[Alineación del texto]]></es>
+            <pt><![CDATA[Alinhamento do texto]]></pt>
+            <fr><![CDATA[Alignement du texte]]></fr>
+            <it><![CDATA[Allineamento del testo]]></it>
+            <pl><![CDATA[Wyrównanie tekstu]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.textAlignment.desc">
-            <de><![CDATA[Bestimmt die Position des Titles und der Beschreibung. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
+            <de><![CDATA[Bestimmt die Position des Titels und der Beschreibung. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
             <en><![CDATA[Determines the position of the title and description. <strong>Note:</strong> Not every template supports this option.]]></en>
+            <es><![CDATA[Determina la posición del título y la descripción. <strong>Nota:</strong> No todas las plantillas admiten esta opción.]]></es>
+            <pt><![CDATA[Define a posição do título e da descrição. <strong>Nota:</strong> Nem todos os modelos suportam esta opção.]]></pt>
+            <fr><![CDATA[Détermine la position du titre et de la description. <strong>Remarque :</strong> Tous les modèles ne prennent pas en charge cette option.]]></fr>
+            <it><![CDATA[Determina la posizione del titolo e della descrizione. <strong>Nota:</strong> Non tutti i modelli supportano questa opzione.]]></it>
+            <pl><![CDATA[Określa położenie tytułu i opisu. <strong>Uwaga:</strong> Nie każdy szablon obsługuje tę opcję.]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.textAlignment.left">
             <de><![CDATA[Links]]></de>
             <en><![CDATA[Left]]></en>
+            <es><![CDATA[Izquierda]]></es>
+            <pt><![CDATA[Esquerda]]></pt>
+            <fr><![CDATA[À gauche]]></fr>
+            <it><![CDATA[A sinistra]]></it>
+            <pl><![CDATA[Do lewej]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.textAlignment.center">
             <de><![CDATA[Zentriert]]></de>
             <en><![CDATA[Center]]></en>
+            <es><![CDATA[Centro]]></es>
+            <pt><![CDATA[Centro]]></pt>
+            <fr><![CDATA[Au centre]]></fr>
+            <it><![CDATA[Al centro]]></it>
+            <pl><![CDATA[Do środka]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.textAlignment.right">
             <de><![CDATA[Rechts]]></de>
             <en><![CDATA[Right]]></en>
+            <es><![CDATA[Derecha]]></es>
+            <pt><![CDATA[Direita]]></pt>
+            <fr><![CDATA[À droite]]></fr>
+            <it><![CDATA[A destra]]></it>
+            <pl><![CDATA[Do prawej]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.showButton">
             <de><![CDATA[Schaltfläche anzeigen]]></de>
             <en><![CDATA[Show button]]></en>
+            <es><![CDATA[Mostrar botón]]></es>
+            <pt><![CDATA[Mostrar botão]]></pt>
+            <fr><![CDATA[Afficher le bouton]]></fr>
+            <it><![CDATA[Mostra pulsante]]></it>
+            <pl><![CDATA[Pokaż przycisk]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.showButton.desc">
-            <de><![CDATA[Wenn aktiviert, wird die Schlatfläche (Button) angezeigt. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
+            <de><![CDATA[Wenn aktiviert, wird die Schaltfläche (Button) angezeigt. <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
             <en><![CDATA[If enabled, the button will be displayed. <strong>Note:</strong> Not every template supports this option.]]></en>
+            <es><![CDATA[Si esta opción está activada, se mostrará el botón. <strong>Nota:</strong> No todas las plantillas admiten esta opción.]]></es>
+            <pt><![CDATA[Se esta opção estiver ativada, o botão será apresentado. <strong>Nota:</strong> Nem todos os modelos suportam esta opção.]]></pt>
+            <fr><![CDATA[Si cette option est activée, le bouton sera affiché. <strong>Remarque :</strong> Tous les modèles ne prennent pas en charge cette option.]]></fr>
+            <it><![CDATA[Se questa opzione è attiva, verrà mostrato il pulsante. <strong>Nota:</strong> Non tutti i modelli supportano questa opzione.]]></it>
+            <pl><![CDATA[Po włączeniu tej opcji wyświetlany jest przycisk. <strong>Uwaga:</strong> Nie każdy szablon obsługuje tę opcję.]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.btnAlignment">
-            <de><![CDATA[Schaltfläche Positionierung]]></de>
+            <de><![CDATA[Ausrichtung der Schaltfläche]]></de>
             <en><![CDATA[Button alignment]]></en>
+            <es><![CDATA[Alineación del botón]]></es>
+            <pt><![CDATA[Alinhamento do botão]]></pt>
+            <fr><![CDATA[Alignement du bouton]]></fr>
+            <it><![CDATA[Allineamento del pulsante]]></it>
+            <pl><![CDATA[Wyrównanie przycisku]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.btnAlignment.desc">
             <de><![CDATA[Bestimmt die Position der Schaltfläche (des Buttons). <strong>Hinweis:</strong> Nicht jede Vorlage unterstützt diese Option.]]></de>
             <en><![CDATA[Determines the position of the button. <strong>Note:</strong> Not every template supports this option.]]></en>
+            <es><![CDATA[Determina la posición del botón. <strong>Nota:</strong> No todas las plantillas admiten esta opción.]]></es>
+            <pt><![CDATA[Define a posição do botão. <strong>Nota:</strong> Nem todos os modelos suportam esta opção.]]></pt>
+            <fr><![CDATA[Détermine la position du bouton. <strong>Remarque :</strong> Tous les modèles ne prennent pas en charge cette option.]]></fr>
+            <it><![CDATA[Determina la posizione del pulsante. <strong>Nota:</strong> Non tutti i modelli supportano questa opzione.]]></it>
+            <pl><![CDATA[Określa położenie przycisku. <strong>Uwaga:</strong> Nie każdy szablon obsługuje tę opcję.]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.btnAlignment.stretch">
-            <de><![CDATA[Volle breite]]></de>
+            <de><![CDATA[Volle Breite]]></de>
             <en><![CDATA[Full width]]></en>
+            <es><![CDATA[Ancho completo]]></es>
+            <pt><![CDATA[Largura total]]></pt>
+            <fr><![CDATA[Toute la largeur]]></fr>
+            <it><![CDATA[Larghezza intera]]></it>
+            <pl><![CDATA[Pełna szerokość]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.btnAlignment.left">
             <de><![CDATA[Links]]></de>
             <en><![CDATA[Left]]></en>
+            <es><![CDATA[Izquierda]]></es>
+            <pt><![CDATA[Esquerda]]></pt>
+            <fr><![CDATA[À gauche]]></fr>
+            <it><![CDATA[A sinistra]]></it>
+            <pl><![CDATA[Do lewej]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.btnAlignment.center">
             <de><![CDATA[Zentriert]]></de>
             <en><![CDATA[Center]]></en>
+            <es><![CDATA[Centro]]></es>
+            <pt><![CDATA[Centro]]></pt>
+            <fr><![CDATA[Au centre]]></fr>
+            <it><![CDATA[Al centro]]></it>
+            <pl><![CDATA[Do środka]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.btnAlignment.right">
             <de><![CDATA[Rechts]]></de>
             <en><![CDATA[Right]]></en>
+            <es><![CDATA[Derecha]]></es>
+            <pt><![CDATA[Direita]]></pt>
+            <fr><![CDATA[À droite]]></fr>
+            <it><![CDATA[A destra]]></it>
+            <pl><![CDATA[Do prawej]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.btnCssClass">
-            <de><![CDATA[Schaltfläche Vorlagenklasse (Button CSS)]]></de>
-            <en><![CDATA[Button css class]]></en>
+            <de><![CDATA[CSS-Klasse der Schaltfläche]]></de>
+            <en><![CDATA[Button CSS class]]></en>
+            <es><![CDATA[Clase CSS del botón]]></es>
+            <pt><![CDATA[Classe CSS do botão]]></pt>
+            <fr><![CDATA[Classe CSS du bouton]]></fr>
+            <it><![CDATA[Classe CSS del pulsante]]></it>
+            <pl><![CDATA[Klasa CSS przycisku]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.btnCssClass.desc">
             <de><![CDATA[Wenn ausgefüllt, wird diese CSS-Klasse auf den Button angewendet.]]></de>
-            <en><![CDATA[If filled, this css class will be applied to the button.]]></en>
+            <en><![CDATA[If specified, this CSS class is applied to the button.]]></en>
+            <es><![CDATA[Si se indica una clase CSS, se aplicará al botón.]]></es>
+            <pt><![CDATA[Se for indicada uma classe CSS, será aplicada ao botão.]]></pt>
+            <fr><![CDATA[Si une classe CSS est renseignée, elle sera appliquée au bouton.]]></fr>
+            <it><![CDATA[Se viene specificata una classe CSS, verrà applicata al pulsante.]]></it>
+            <pl><![CDATA[Jeśli podasz klasę CSS, zostanie ona zastosowana do przycisku.]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.list2025.settings.subpages">
             <de><![CDATA[Unterseiten]]></de>
             <en><![CDATA[Subpages]]></en>
+            <es><![CDATA[Subpáginas]]></es>
+            <pt><![CDATA[Subpáginas]]></pt>
+            <fr><![CDATA[Sous-pages]]></fr>
+            <it><![CDATA[Sottopagine]]></it>
+            <pl><![CDATA[Podstrony]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.subpages.desc">
             <de><![CDATA[Mit dieser Option können Unterseiten in der Kachel angezeigt werden. Es können entweder nur die FAQ‑Kategorien oder FAQ‑Kategorien und die FAQ Einträge angezeigt werden. Es werden nur direkte Unterseiten berücksichtigt.]]></de>
             <en><![CDATA[With this option you can display subpages in the overview. You can choose to show only FAQ categories or FAQ categories with FAQ entries. Only direct subpages are taken into account.]]></en>
+            <es><![CDATA[Permite mostrar subpáginas en la vista general. Puedes incluir solo las categorías de FAQ o las categorías y sus entradas. Solo se tienen en cuenta las subpáginas directas.]]></es>
+            <pt><![CDATA[Permite apresentar subpáginas na vista geral. Podes incluir apenas as categorias de FAQ ou as categorias e as respetivas entradas. Só são consideradas as subpáginas diretas.]]></pt>
+            <fr><![CDATA[Permet d'afficher des sous-pages dans la vue d'ensemble. Vous pouvez inclure uniquement les catégories FAQ ou les catégories et leurs entrées. Seules les sous-pages directes sont prises en compte.]]></fr>
+            <it><![CDATA[Consente di mostrare le sottopagine nella panoramica. Puoi includere solo le categorie FAQ oppure le categorie e le relative voci. Vengono considerate solo le sottopagine dirette.]]></it>
+            <pl><![CDATA[Pozwala wyświetlać podstrony w widoku ogólnym. Możesz uwzględnić tylko kategorie FAQ lub kategorie wraz z wpisami. Uwzględniane są wyłącznie bezpośrednie podstrony.]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.subpages.disabled">
             <de><![CDATA[Deaktiviert - keine Unterseiten anzeigen]]></de>
             <en><![CDATA[Disabled - no subpages displayed]]></en>
+            <es><![CDATA[Desactivado - No mostrar subpáginas]]></es>
+            <pt><![CDATA[Desativado - Não mostrar subpáginas]]></pt>
+            <fr><![CDATA[Désactivé - Aucune sous-page affichée]]></fr>
+            <it><![CDATA[Disattivato - Non mostrare sottopagine]]></it>
+            <pl><![CDATA[Wyłączone - Nie pokazuj podstron]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.subpages.categories">
             <de><![CDATA[FAQ Kategorien]]></de>
             <en><![CDATA[FAQ categories]]></en>
+            <es><![CDATA[Categorías de FAQ]]></es>
+            <pt><![CDATA[Categorias de FAQ]]></pt>
+            <fr><![CDATA[Catégories FAQ]]></fr>
+            <it><![CDATA[Categorie FAQ]]></it>
+            <pl><![CDATA[Kategorie FAQ]]></pl>
         </locale>
         <locale name="quiqqer.faq.list2025.settings.subpages.all">
             <de><![CDATA[FAQ Kategorien und FAQ Einträge]]></de>
             <en><![CDATA[FAQ categories and FAQ entries]]></en>
+            <es><![CDATA[Categorías y entradas de FAQ]]></es>
+            <pt><![CDATA[Categorias e entradas de FAQ]]></pt>
+            <fr><![CDATA[Catégories et entrées FAQ]]></fr>
+            <it><![CDATA[Categorie e voci FAQ]]></it>
+            <pl><![CDATA[Kategorie i wpisy FAQ]]></pl>
         </locale>
 
 
         <locale name="admin.types.faq.category">
             <de><![CDATA[FAQ-Kategorie]]></de>
             <en><![CDATA[FAQ: Category]]></en>
+            <es><![CDATA[Categoría FAQ]]></es>
+            <pt><![CDATA[Categoria FAQ]]></pt>
+            <fr><![CDATA[Catégorie FAQ]]></fr>
+            <it><![CDATA[Categoria FAQ]]></it>
+            <pl><![CDATA[Kategoria FAQ]]></pl>
         </locale>
     </groups>
     <groups name="quiqqer/faq" datatype="php">
         <locale name="link.to.top">
             <de><![CDATA[Nach oben]]></de>
             <en><![CDATA[To the top]]></en>
+            <es><![CDATA[Volver arriba]]></es>
+            <pt><![CDATA[Voltar ao topo]]></pt>
+            <fr><![CDATA[Retour en haut]]></fr>
+            <it><![CDATA[Torna in alto]]></it>
+            <pl><![CDATA[Do góry]]></pl>
         </locale>
         <locale name="more">
             <de><![CDATA[Weiter]]></de>
             <en><![CDATA[More]]></en>
+            <es><![CDATA[Leer más]]></es>
+            <pt><![CDATA[Ler mais]]></pt>
+            <fr><![CDATA[Lire la suite]]></fr>
+            <it><![CDATA[Leggi di più]]></it>
+            <pl><![CDATA[Czytaj więcej]]></pl>
         </locale>
     </groups>
     <groups name="quiqqer/faq" datatype="php,js ">
         <locale name="quiqqer/faq:types/entry.title">
             <de><![CDATA[FAQ-Eintrag]]></de>
             <en><![CDATA[FAQ Entry]]></en>
+            <es><![CDATA[Entrada FAQ]]></es>
+            <pt><![CDATA[Entrada FAQ]]></pt>
+            <fr><![CDATA[Entrée FAQ]]></fr>
+            <it><![CDATA[Voce FAQ]]></it>
+            <pl><![CDATA[Wpis FAQ]]></pl>
         </locale>
 
         <locale name="faq.settings.useFaqStructuredData">
             <de><![CDATA[FAQ Schema Markup aktivieren]]></de>
             <en><![CDATA[Use FAQ schema markup]]></en>
+            <es><![CDATA[Activar el marcado de datos estructurados de FAQ]]></es>
+            <pt><![CDATA[Ativar a marcação de dados estruturados de FAQ]]></pt>
+            <fr><![CDATA[Activer le balisage de données structurées FAQ]]></fr>
+            <it><![CDATA[Attiva il markup dei dati strutturati FAQ]]></it>
+            <pl><![CDATA[Włącz znaczniki danych strukturalnych FAQ]]></pl>
         </locale>
         <locale name="faq.settings.useFaqStructuredData.desc">
-            <de><![CDATA[Wenn die Option aktiviert ist, wird ein JSON-LD Code Snippet generiert. Dadurch kann Google die FAQ Einträgen direkt in den Suchergebnissen einblenden. Mehr zu diesem Thema auf
+            <de><![CDATA[Wenn die Option aktiviert ist, wird ein JSON-LD-Code-Snippet generiert. Dadurch kann Google die FAQ-Einträge direkt in den Suchergebnissen einblenden. Mehr zu diesem Thema auf
             <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Häufig gestellte Fragen mit strukturierten Daten auszeichnen</a>.]]></de>
-            <en><![CDATA[If enabled a JSON-LD code snippet will be generated. This allows Google to display the FAQ entries directly in the search results. More on this topic at
+            <en><![CDATA[If enabled, a JSON-LD code snippet will be generated. This allows Google to display the FAQ entries directly in the search results. More on this topic at
             <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Mark up your FAQs with structured data</a>.]]></en>
+            <es><![CDATA[Si esta opción está activada, se genera un fragmento de código JSON-LD. Esto permite que Google muestre las entradas FAQ directamente en los resultados de búsqueda. Más información en <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Marcar las preguntas frecuentes con datos estructurados</a>.]]></es>
+            <pt><![CDATA[Se esta opção estiver ativada, é gerado um fragmento de código JSON-LD. Isto permite ao Google apresentar as entradas FAQ diretamente nos resultados de pesquisa. Mais informações em <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Marcar perguntas frequentes com dados estruturados</a>.]]></pt>
+            <fr><![CDATA[Si cette option est activée, un extrait de code JSON-LD est généré. Cela permet à Google d'afficher les entrées FAQ directement dans les résultats de recherche. Pour en savoir plus, consultez <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Baliser les questions fréquentes avec des données structurées</a>.]]></fr>
+            <it><![CDATA[Se questa opzione è attiva, viene generato uno snippet di codice JSON-LD. Questo permette a Google di mostrare le voci FAQ direttamente nei risultati di ricerca. Per saperne di più, consulta <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Contrassegnare le domande frequenti con dati strutturati</a>.]]></it>
+            <pl><![CDATA[Po włączeniu tej opcji generowany jest fragment kodu JSON-LD. Umożliwia to Google wyświetlanie wpisów FAQ bezpośrednio w wynikach wyszukiwania. Więcej informacji znajdziesz na stronie <a href="https://developers.google.com/search/docs/advanced/structured-data/faqpage" target="_blank">Oznaczanie najczęściej zadawanych pytań danymi strukturalnymi</a>.]]></pl>
         </locale>
 
         <locale name="quiqqer/faq:types/category.title">
-            <de><![CDATA[FAQ-Kategorie ]]></de>
+            <de><![CDATA[FAQ-Kategorie]]></de>
             <en><![CDATA[FAQ Category]]></en>
+            <es><![CDATA[Categoría FAQ]]></es>
+            <pt><![CDATA[Categoria FAQ]]></pt>
+            <fr><![CDATA[Catégorie FAQ]]></fr>
+            <it><![CDATA[Categoria FAQ]]></it>
+            <pl><![CDATA[Kategoria FAQ]]></pl>
         </locale>
         <locale name="quiqqer/faq:types/list.description">
             <de><![CDATA[Um die FAQ anzulegen, erstellen Sie zunächst eine neue Seite mit dem Seitentyp FAQ-Liste. Alle darunter liegenden Seiten werden aufgelistet.]]></de>
-            <en><![CDATA[]]></en>
+            <en><![CDATA[To create a FAQ section, first create a page of type "FAQ List". All its subpages will be listed.]]></en>
+            <es><![CDATA[Para crear la sección de preguntas frecuentes, crea primero una página de tipo «Lista de FAQ». Se mostrarán todas sus subpáginas.]]></es>
+            <pt><![CDATA[Para criar a secção de perguntas frequentes, começa por criar uma página do tipo «Lista de FAQ». Serão listadas todas as suas subpáginas.]]></pt>
+            <fr><![CDATA[Pour créer la foire aux questions, commencez par créer une page de type « Liste FAQ ». Toutes ses sous-pages seront répertoriées.]]></fr>
+            <it><![CDATA[Per creare la sezione di domande frequenti, crea prima una pagina di tipo «Elenco FAQ». Verranno elencate tutte le sue sottopagine.]]></it>
+            <pl><![CDATA[Aby utworzyć sekcję najczęściej zadawanych pytań, najpierw utwórz stronę typu „Lista FAQ”. Zostaną na niej wyświetlone wszystkie podstrony.]]></pl>
         </locale>
         <locale name="quiqqer/faq:types/entry.description">
-            <de><![CDATA[Als letztes listen Sie unter den angelegten Kategorien mittels dem Seitentyp FAQ-Eintrag alle Fragen auf, die am häufigsten gestellt werden/wurden. Als Titel können Sie die Frage einpflegen und die passende Antwort dazu entweder als Kurzbeschreibung oder als Inhalt .]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[Legen Sie zuletzt die häufig gestellten Fragen unter den angelegten Kategorien mit dem Seitentyp "FAQ-Eintrag" an. Verwenden Sie die Frage als Titel und tragen Sie die passende Antwort als Kurzbeschreibung oder Inhalt ein.]]></de>
+            <en><![CDATA[Finally, add frequently asked questions as subpages of the categories you created, using the "FAQ Entry" page type. Use the question as the title and enter the answer as the short description or content.]]></en>
+            <es><![CDATA[Por último, añade las preguntas frecuentes como subpáginas de las categorías creadas, usando el tipo de página «Entrada FAQ». Introduce la pregunta como título y la respuesta como descripción breve o contenido.]]></es>
+            <pt><![CDATA[Por fim, adiciona as perguntas frequentes como subpáginas das categorias criadas, usando o tipo de página «Entrada FAQ». Introduz a pergunta como título e a resposta como descrição breve ou conteúdo.]]></pt>
+            <fr><![CDATA[Enfin, ajoutez les questions fréquentes sous les catégories créées, avec le type de page « Entrée FAQ ». Saisissez la question comme titre et la réponse comme description courte ou contenu.]]></fr>
+            <it><![CDATA[Infine, aggiungi le domande frequenti come sottopagine delle categorie create, usando il tipo di pagina «Voce FAQ». Inserisci la domanda come titolo e la risposta come breve descrizione o contenuto.]]></it>
+            <pl><![CDATA[Na koniec dodaj najczęściej zadawane pytania jako podstrony utworzonych kategorii, używając typu strony „Wpis FAQ”. Wpisz pytanie jako tytuł, a odpowiedź jako krótki opis lub treść.]]></pl>
         </locale>
         <locale name="quiqqer/faq:types/category.description">
-            <de><![CDATA[Nachdem Sie eine FAQ-Liste angelegt haben, erstellen Sie am besten alle benötigten Kategorien als Unterseiten der FAQ-Liste. Z.B "Wo finde ich was?", "Fragen zur Bestellung" etc.]]></de>
-            <en><![CDATA[]]></en>
+            <de><![CDATA[Nachdem Sie eine FAQ-Liste angelegt haben, erstellen Sie die benötigten Kategorien als Unterseiten, z. B. "Wo finde ich was?" oder "Fragen zur Bestellung".]]></de>
+            <en><![CDATA[After creating a "FAQ List", add the categories you need as subpages, for example "Where can I find what I need?" or "Questions about orders".]]></en>
+            <es><![CDATA[Después de crear una «Lista de FAQ», añade las categorías necesarias como subpáginas, por ejemplo, «¿Dónde encuentro lo que busco?» o «Preguntas sobre pedidos».]]></es>
+            <pt><![CDATA[Depois de criares uma «Lista de FAQ», adiciona as categorias necessárias como subpáginas, por exemplo, «Onde encontro o que procuro?» ou «Perguntas sobre encomendas».]]></pt>
+            <fr><![CDATA[Après avoir créé une « Liste FAQ », ajoutez les catégories nécessaires comme sous-pages, par exemple « Où trouver ce que je cherche ? » ou « Questions sur les commandes ».]]></fr>
+            <it><![CDATA[Dopo aver creato un «Elenco FAQ», aggiungi le categorie necessarie come sottopagine, ad esempio «Dove trovo quello che cerco?» o «Domande sugli ordini».]]></it>
+            <pl><![CDATA[Po utworzeniu strony „Lista FAQ” dodaj potrzebne kategorie jako podstrony, np. „Gdzie znaleźć potrzebne informacje?” lub „Pytania dotyczące zamówień”.]]></pl>
         </locale>
 
         <locale name="quiqqer.faq.category.settings.title">
-            <de><![CDATA[FAQ-Kategorie Einstellungen]]></de>
+            <de><![CDATA[FAQ-Kategorie: Einstellungen]]></de>
             <en><![CDATA[FAQ category settings]]></en>
+            <es><![CDATA[Configuración de la categoría FAQ]]></es>
+            <pt><![CDATA[Definições da categoria FAQ]]></pt>
+            <fr><![CDATA[Paramètres de la catégorie FAQ]]></fr>
+            <it><![CDATA[Impostazioni della categoria FAQ]]></it>
+            <pl><![CDATA[Ustawienia kategorii FAQ]]></pl>
         </locale>
         <locale name="quiqqer.faq.entry.settings.title">
-            <de><![CDATA[FAQ-Eintrag Einstellungen]]></de>
+            <de><![CDATA[FAQ-Eintrag: Einstellungen]]></de>
             <en><![CDATA[FAQ entry settings]]></en>
+            <es><![CDATA[Configuración de la entrada FAQ]]></es>
+            <pt><![CDATA[Definições da entrada FAQ]]></pt>
+            <fr><![CDATA[Paramètres de l'entrée FAQ]]></fr>
+            <it><![CDATA[Impostazioni della voce FAQ]]></it>
+            <pl><![CDATA[Ustawienia wpisu FAQ]]></pl>
         </locale>
         <locale name="quiqqer.faq.entry.settings.showHeader">
             <de><![CDATA[Header anzeigen]]></de>
             <en><![CDATA[Show header]]></en>
+            <es><![CDATA[Mostrar cabecera]]></es>
+            <pt><![CDATA[Mostrar cabeçalho]]></pt>
+            <fr><![CDATA[Afficher l'en-tête]]></fr>
+            <it><![CDATA[Mostra intestazione]]></it>
+            <pl><![CDATA[Pokaż nagłówek]]></pl>
         </locale>
         <locale name="quiqqer.faq.entry.settings.showHeader.desc">
             <de><![CDATA[Wenn deaktiviert, wird der Header-Bereich mit Seitentitel und Kurzbeschreibung oberhalb des Inhalts nicht ausgegeben.]]></de>
             <en><![CDATA[If disabled, the header section with page title and short description above the content will not be rendered.]]></en>
+            <es><![CDATA[Si esta opción está desactivada, no se muestra la cabecera con el título de la página y la descripción breve situada encima del contenido.]]></es>
+            <pt><![CDATA[Se esta opção estiver desativada, não é apresentado o cabeçalho com o título da página e a descrição breve acima do conteúdo.]]></pt>
+            <fr><![CDATA[Si cette option est désactivée, l'en-tête contenant le titre de la page et la description courte au-dessus du contenu n'est pas affiché.]]></fr>
+            <it><![CDATA[Se questa opzione è disattivata, non viene mostrata l'intestazione con il titolo della pagina e la breve descrizione sopra il contenuto.]]></it>
+            <pl><![CDATA[Po wyłączeniu tej opcji nagłówek z tytułem strony i krótkim opisem nad treścią nie jest wyświetlany.]]></pl>
         </locale>
         <locale name="quiqqer.faq.category.settings.offset">
             <de><![CDATA[Versatz]]></de>
             <en><![CDATA[Offset]]></en>
+            <es><![CDATA[Desplazamiento]]></es>
+            <pt><![CDATA[Deslocamento]]></pt>
+            <fr><![CDATA[Décalage]]></fr>
+            <it><![CDATA[Scostamento]]></it>
+            <pl><![CDATA[Przesunięcie]]></pl>
         </locale>
         <locale name="quiqqer.faq.category.settings.offset.desc">
-            <de><![CDATA[Der Versatz (in Pixel) sagt, um wie viele zusätzliche Pixel soll die Seite gescrollt werden, wenn man ein FAQ Titel anklickt. Das ist vor allem dann hilfreich, wenn das Menü den Inhalt verdecken würde. Es funktioniert nur im Standard-Template.]]></de>
-            <en><![CDATA[The offset (in pixels) specifies how many additional pixels the page should scroll when you click on a FAQ title. By doing this the menu no longer hides the linked content. It takes affect in default template.]]></en>
+            <de><![CDATA[Der Versatz in Pixeln legt fest, um wie viele zusätzliche Pixel die Seite beim Anklicken eines FAQ-Titels gescrollt wird. Das ist hilfreich, wenn das Menü den verlinkten Inhalt verdecken würde. Diese Einstellung funktioniert nur in der Standardvorlage.]]></de>
+            <en><![CDATA[The offset specifies how many additional pixels the page should scroll when a FAQ title is clicked. This is useful if the menu would otherwise hide the linked content. This setting only works with the default template.]]></en>
+            <es><![CDATA[Indica cuántos píxeles adicionales se desplaza la página al hacer clic en el título de una pregunta frecuente. Resulta útil cuando el menú podría tapar el contenido de destino. Solo funciona con la plantilla predeterminada.]]></es>
+            <pt><![CDATA[Indica quantos píxeis adicionais a página deve deslocar-se ao clicar no título de uma pergunta frequente. É útil quando o menu poderia ocultar o conteúdo de destino. Só funciona com o modelo predefinido.]]></pt>
+            <fr><![CDATA[Indique de combien de pixels supplémentaires la page doit défiler lorsqu'un titre de FAQ est sélectionné. Ce réglage est utile si le menu risque de masquer le contenu ciblé. Il fonctionne uniquement avec le modèle par défaut.]]></fr>
+            <it><![CDATA[Indica di quanti pixel aggiuntivi deve scorrere la pagina quando fai clic sul titolo di una FAQ. È utile se il menu rischia di coprire il contenuto di destinazione. Funziona solo con il modello predefinito.]]></it>
+            <pl><![CDATA[Określa, o ile dodatkowych pikseli ma przewinąć się strona po kliknięciu tytułu FAQ. Jest to przydatne, gdy menu mogłoby zasłaniać wskazaną treść. Działa tylko w szablonie domyślnym.]]></pl>
         </locale>
         <locale name="quiqqer.faq.category.settings.template">
             <de><![CDATA[Template]]></de>
             <en><![CDATA[Template]]></en>
+            <es><![CDATA[Plantilla]]></es>
+            <pt><![CDATA[Modelo]]></pt>
+            <fr><![CDATA[Modèle]]></fr>
+            <it><![CDATA[Modello]]></it>
+            <pl><![CDATA[Szablon]]></pl>
         </locale>
         <locale name="quiqqer.faq.category.settings.template.default">
             <de><![CDATA[Standard]]></de>
             <en><![CDATA[Default]]></en>
+            <es><![CDATA[Predeterminada]]></es>
+            <pt><![CDATA[Predefinido]]></pt>
+            <fr><![CDATA[Par défaut]]></fr>
+            <it><![CDATA[Predefinito]]></it>
+            <pl><![CDATA[Domyślny]]></pl>
         </locale>
         <locale name="quiqqer.faq.category.settings.template.accordion">
             <de><![CDATA[FAQ Akkordeon Menü]]></de>
             <en><![CDATA[FAQ Accordion Menu]]></en>
+            <es><![CDATA[Menú de FAQ en acordeón]]></es>
+            <pt><![CDATA[Menu de FAQ em acordeão]]></pt>
+            <fr><![CDATA[Menu FAQ en accordéon]]></fr>
+            <it><![CDATA[Menu FAQ a fisarmonica]]></it>
+            <pl><![CDATA[Menu FAQ w formie akordeonu]]></pl>
         </locale>
         <locale name="quiqqer.faq.settings.accordion.stayOpen">
             <de><![CDATA[FAQ Akkordeon Menü: Einträge bleiben auf]]></de>
             <en><![CDATA[FAQ Accordion Menu: Entries stay open]]></en>
+            <es><![CDATA[Menú de FAQ en acordeón: mantener las entradas abiertas]]></es>
+            <pt><![CDATA[Menu de FAQ em acordeão: manter as entradas abertas]]></pt>
+            <fr><![CDATA[Menu FAQ en accordéon : garder les entrées ouvertes]]></fr>
+            <it><![CDATA[Menu FAQ a fisarmonica: mantieni aperte le voci]]></it>
+            <pl><![CDATA[Menu FAQ w formie akordeonu: pozostaw wpisy otwarte]]></pl>
         </locale>
 
         <!-- Brick: FAQ Accordion Menu  -->
         <locale name="brick.accordion.title">
             <de><![CDATA[FAQ: Akkordeon Menü]]></de>
             <en><![CDATA[FAQ: Accordion Menu]]></en>
+            <es><![CDATA[FAQ: menú en acordeón]]></es>
+            <pt><![CDATA[FAQ: menu em acordeão]]></pt>
+            <fr><![CDATA[FAQ : menu en accordéon]]></fr>
+            <it><![CDATA[FAQ: menu a fisarmonica]]></it>
+            <pl><![CDATA[FAQ: menu w formie akordeonu]]></pl>
         </locale>
         <locale name="brick.accordion.description">
             <de><![CDATA[Der Baustein zeigt die FAQ Einträge als modernes Akkordeon-Menü.]]></de>
             <en><![CDATA[This brick shows the FAQ entries as a modern accordion menu.]]></en>
+            <es><![CDATA[Este bloque muestra las entradas FAQ en un menú en acordeón.]]></es>
+            <pt><![CDATA[Este bloco apresenta as entradas FAQ num menu em acordeão.]]></pt>
+            <fr><![CDATA[Ce bloc affiche les entrées FAQ dans un menu en accordéon.]]></fr>
+            <it><![CDATA[Questo blocco mostra le voci FAQ in un menu a fisarmonica.]]></it>
+            <pl><![CDATA[Blok wyświetla wpisy FAQ w menu w formie akordeonu.]]></pl>
         </locale>
         <locale name="brick.accordion.settings.site">
-            <de><![CDATA[FAQ Kategorie Seite]]></de>
-            <en><![CDATA[FAQ category site]]></en>
+            <de><![CDATA[FAQ-Kategorieseite]]></de>
+            <en><![CDATA[FAQ category page]]></en>
+            <es><![CDATA[Página de categoría FAQ]]></es>
+            <pt><![CDATA[Página de categoria FAQ]]></pt>
+            <fr><![CDATA[Page de catégorie FAQ]]></fr>
+            <it><![CDATA[Pagina della categoria FAQ]]></it>
+            <pl><![CDATA[Strona kategorii FAQ]]></pl>
         </locale>
         <locale name="brick.accordion.settings.site.desc">
             <de><![CDATA[Nur die Unterseiten vom Typ "FAQ-Eintrag" werden angezeigt.]]></de>
             <en><![CDATA[Only the subpages of the "FAQ Entry" type are displayed.]]></en>
+            <es><![CDATA[Solo se muestran las subpáginas de tipo «Entrada FAQ».]]></es>
+            <pt><![CDATA[Só são apresentadas as subpáginas do tipo «Entrada FAQ».]]></pt>
+            <fr><![CDATA[Seules les sous-pages de type « Entrée FAQ » sont affichées.]]></fr>
+            <it><![CDATA[Vengono mostrate solo le sottopagine di tipo «Voce FAQ».]]></it>
+            <pl><![CDATA[Wyświetlane są tylko podstrony typu „Wpis FAQ”.]]></pl>
         </locale>
         <locale name="brick.accordion.settings.order">
             <de><![CDATA[Reihenfolge]]></de>
             <en><![CDATA[Order]]></en>
+            <es><![CDATA[Orden]]></es>
+            <pt><![CDATA[Ordem]]></pt>
+            <fr><![CDATA[Ordre]]></fr>
+            <it><![CDATA[Ordine]]></it>
+            <pl><![CDATA[Kolejność]]></pl>
         </locale>
         <locale name="brick.control.order.order_field">
             <de><![CDATA[Manuell]]></de>
             <en><![CDATA[Manual]]></en>
+            <es><![CDATA[Manual]]></es>
+            <pt><![CDATA[Manual]]></pt>
+            <fr><![CDATA[Manuel]]></fr>
+            <it><![CDATA[Manuale]]></it>
+            <pl><![CDATA[Ręczna]]></pl>
         </locale>
         <locale name="brick.accordion.settings.stayOpen">
             <de><![CDATA[Einträge bleiben auf]]></de>
             <en><![CDATA[Entries stay open]]></en>
+            <es><![CDATA[Mantener las entradas abiertas]]></es>
+            <pt><![CDATA[Manter as entradas abertas]]></pt>
+            <fr><![CDATA[Garder les entrées ouvertes]]></fr>
+            <it><![CDATA[Mantieni aperte le voci]]></it>
+            <pl><![CDATA[Pozostaw wpisy otwarte]]></pl>
         </locale>
         <locale name="brick.accordion.settings.stayOpen.desc">
             <de><![CDATA[Akkordeon-Elemente bleiben geöffnet, wenn ein anderes Element geöffnet wird.]]></de>
             <en><![CDATA[Accordion items stay open when another item is opened.]]></en>
+            <es><![CDATA[Las entradas del acordeón permanecen abiertas al abrir otra entrada.]]></es>
+            <pt><![CDATA[As entradas do acordeão permanecem abertas quando se abre outra entrada.]]></pt>
+            <fr><![CDATA[Les éléments de l'accordéon restent ouverts lorsqu'un autre élément est ouvert.]]></fr>
+            <it><![CDATA[Le voci della fisarmonica rimangono aperte quando ne apri un'altra.]]></it>
+            <pl><![CDATA[Elementy akordeonu pozostają otwarte po otwarciu kolejnego elementu.]]></pl>
         </locale>
         <locale name="brick.accordion.settings.openFirst">
-            <de><![CDATA[Der erste Eintrag ist initial aufgemacht]]></de>
-            <en><![CDATA[The first entry is initial open]]></en>
+            <de><![CDATA[Ersten Eintrag beim Laden öffnen]]></de>
+            <en><![CDATA[Open the first entry on load]]></en>
+            <es><![CDATA[Abrir la primera entrada al cargar]]></es>
+            <pt><![CDATA[Abrir a primeira entrada ao carregar]]></pt>
+            <fr><![CDATA[Ouvrir la première entrée au chargement]]></fr>
+            <it><![CDATA[Apri la prima voce al caricamento]]></it>
+            <pl><![CDATA[Otwórz pierwszy wpis po załadowaniu]]></pl>
         </locale>
         <locale name="brick.accordion.settings.listMaxWidth">
             <de><![CDATA[Maximale Akkordeon-Breite]]></de>
             <en><![CDATA[Max accordion width]]></en>
+            <es><![CDATA[Ancho máximo del acordeón]]></es>
+            <pt><![CDATA[Largura máxima do acordeão]]></pt>
+            <fr><![CDATA[Largeur maximale de l'accordéon]]></fr>
+            <it><![CDATA[Larghezza massima della fisarmonica]]></it>
+            <pl><![CDATA[Maksymalna szerokość akordeonu]]></pl>
         </locale>
         <locale name="brick.accordion.settings.listMaxWidth.desc">
             <de><![CDATA[Diese Einstellung betrifft nur die Liste mit Akkordeon-Elementen.]]></de>
             <en><![CDATA[This setting affects only the list with accordion elements.]]></en>
+            <es><![CDATA[Esta opción solo afecta a la lista de entradas del acordeón.]]></es>
+            <pt><![CDATA[Esta definição afeta apenas a lista de entradas do acordeão.]]></pt>
+            <fr><![CDATA[Ce paramètre concerne uniquement la liste des éléments de l'accordéon.]]></fr>
+            <it><![CDATA[Questa impostazione riguarda solo l'elenco delle voci della fisarmonica.]]></it>
+            <pl><![CDATA[Ustawienie dotyczy tylko listy elementów akordeonu.]]></pl>
         </locale>
         <locale name="brick.accordion.settings.max">
             <de><![CDATA[Maximale Anzahl der Einträge]]></de>
             <en><![CDATA[Maximum number of entries]]></en>
+            <es><![CDATA[Número máximo de entradas]]></es>
+            <pt><![CDATA[Número máximo de entradas]]></pt>
+            <fr><![CDATA[Nombre maximal d'entrées]]></fr>
+            <it><![CDATA[Numero massimo di voci]]></it>
+            <pl><![CDATA[Maksymalna liczba wpisów]]></pl>
         </locale>
         <locale name="brick.accordion.settings.showMoreButton">
-            <de><![CDATA["Weitere Einträge" Button anzeigen]]></de>
-            <en><![CDATA[Show "more entries" button]]></en>
+            <de><![CDATA[Schaltfläche "Weitere FAQ Einträge" anzeigen]]></de>
+            <en><![CDATA[Show "More FAQ entries" button]]></en>
+            <es><![CDATA[Mostrar el botón «Más entradas FAQ»]]></es>
+            <pt><![CDATA[Mostrar o botão «Mais entradas FAQ»]]></pt>
+            <fr><![CDATA[Afficher le bouton « Autres entrées FAQ »]]></fr>
+            <it><![CDATA[Mostra il pulsante «Altre voci FAQ»]]></it>
+            <pl><![CDATA[Pokaż przycisk „Więcej wpisów FAQ”]]></pl>
         </locale>
         <locale name="brick.accordion.settings.showMoreButton.desc" html="true">
-            <de><![CDATA[Der Button wird nicht angezeigt, wenn es nicht mehr Einträge gibt, als der Baustein anzeigt. Wenn der Baustein 10 Einträge listet aber es nur 5 FAQ Einträgen gibt, wird kein Button angezeigt. Bitte die Einstellungn <strong>"Maximale Anzahl der Einträge"</strong> beachten.]]></de>
-            <en><![CDATA[The button is not displayed if there are not more entries than the brick displays. If the brick lists 10 entries and there are only 5 faq entries, no button will be displayed. Please note the <strong>"Maximum number of entries"</strong> setting.]]></en>
+            <de><![CDATA[Der Button wird nicht angezeigt, wenn es nicht mehr Einträge gibt, als der Baustein anzeigt. Wenn der Baustein 10 Einträge listet, aber es nur 5 FAQ-Einträge gibt, wird kein Button angezeigt. Bitte die Einstellung <strong>"Maximale Anzahl der Einträge"</strong> beachten.]]></de>
+            <en><![CDATA[The button is not displayed if there are not more entries than the brick displays. If the brick lists 10 entries and there are only 5 FAQ entries, no button will be displayed. Please note the <strong>"Maximum number of entries"</strong> setting.]]></en>
+            <es><![CDATA[El botón no se muestra si no hay más entradas que las que ya muestra el bloque. Por ejemplo, si el bloque puede mostrar 10 entradas y solo hay 5, el botón no aparece. Ten en cuenta la opción <strong>«Número máximo de entradas»</strong>.]]></es>
+            <pt><![CDATA[O botão não é apresentado se não houver mais entradas do que as que o bloco já mostra. Por exemplo, se o bloco puder mostrar 10 entradas e só existirem 5, o botão não aparece. Tem em conta a definição <strong>«Número máximo de entradas»</strong>.]]></pt>
+            <fr><![CDATA[Le bouton n'est pas affiché s'il n'y a pas plus d'entrées que celles déjà affichées par le bloc. Par exemple, si le bloc peut afficher 10 entrées et qu'il n'en existe que 5, le bouton n'apparaît pas. Tenez compte du paramètre <strong>« Nombre maximal d'entrées »</strong>.]]></fr>
+            <it><![CDATA[Il pulsante non viene mostrato se non ci sono altre voci oltre a quelle già visualizzate nel blocco. Ad esempio, se il blocco può mostrare 10 voci ma ne esistono solo 5, il pulsante non appare. Tieni conto dell'impostazione <strong>«Numero massimo di voci»</strong>.]]></it>
+            <pl><![CDATA[Przycisk nie jest wyświetlany, jeśli nie ma więcej wpisów niż te już pokazane w bloku. Na przykład, jeśli blok może pokazać 10 wpisów, ale istnieje ich tylko 5, przycisk się nie pojawi. Uwzględnij ustawienie <strong>„Maksymalna liczba wpisów”</strong>.]]></pl>
         </locale>
         <locale name="brick.accordion.button.more">
             <de><![CDATA[Weitere FAQ Einträge]]></de>
             <en><![CDATA[More FAQ entries]]></en>
+            <es><![CDATA[Más entradas FAQ]]></es>
+            <pt><![CDATA[Mais entradas FAQ]]></pt>
+            <fr><![CDATA[Autres entrées FAQ]]></fr>
+            <it><![CDATA[Altre voci FAQ]]></it>
+            <pl><![CDATA[Więcej wpisów FAQ]]></pl>
         </locale>
         <locale name="brick.accordion.settings.moreSite">
-            <de><![CDATA["Weitere Einträge" Seite]]></de>
-            <en><![CDATA["More entries" site]]></en>
+            <de><![CDATA[Seite für "Weitere FAQ Einträge"]]></de>
+            <en><![CDATA["More FAQ entries" page]]></en>
+            <es><![CDATA[Página de «Más entradas FAQ»]]></es>
+            <pt><![CDATA[Página de «Mais entradas FAQ»]]></pt>
+            <fr><![CDATA[Page « Autres entrées FAQ »]]></fr>
+            <it><![CDATA[Pagina «Altre voci FAQ»]]></it>
+            <pl><![CDATA[Strona „Więcej wpisów FAQ”]]></pl>
         </locale>
         <locale name="brick.accordion.settings.moreSite.desc" html="true">
-            <de><![CDATA[Seite mit weiteren Informationen. Wenn ausgewählt, wird der Button "Weitere Einträge" unter der FAQ List <strong>immer</strong> angezeigt.]]></de>
-            <en><![CDATA[Page with further information. If selected, the "More entries" button will <strong>always</strong> be displayed below the FAQ List.]]></en>
+            <de><![CDATA[Seite mit weiteren Informationen. Wenn ausgewählt, wird der Button "Weitere FAQ Einträge" unter der FAQ-Liste <strong>immer</strong> angezeigt.]]></de>
+            <en><![CDATA[Page with further information. If selected, the "More FAQ entries" button will <strong>always</strong> be displayed below the FAQ List.]]></en>
+            <es><![CDATA[Página con más información. Si se selecciona, el botón «Más entradas FAQ» se muestra <strong>siempre</strong> debajo de la lista de FAQ.]]></es>
+            <pt><![CDATA[Página com mais informações. Se for selecionada, o botão «Mais entradas FAQ» é apresentado <strong>sempre</strong> por baixo da lista de FAQ.]]></pt>
+            <fr><![CDATA[Page contenant des informations complémentaires. Si elle est sélectionnée, le bouton « Autres entrées FAQ » est <strong>toujours</strong> affiché sous la liste FAQ.]]></fr>
+            <it><![CDATA[Pagina con ulteriori informazioni. Se selezionata, il pulsante «Altre voci FAQ» viene mostrato <strong>sempre</strong> sotto l'elenco FAQ.]]></it>
+            <pl><![CDATA[Strona z dodatkowymi informacjami. Po jej wybraniu przycisk „Więcej wpisów FAQ” jest wyświetlany <strong>zawsze</strong> pod listą FAQ.]]></pl>
         </locale>
     </groups>
 </locales>
